@@ -1,0 +1,1001 @@
+product_id,product_name,category,subcategory,brand,price,cost,stock_quantity,profit_margin
+1,Levi's Shoes Respond,Clothing,Shoes,Levi's,96.03,51.36,219,46.52
+2,Nike Water Sports Western,Sports,Water Sports,Nike,204.95,136.97,385,33.17
+3,Dell Headphones Total,Electronics,Headphones,Dell,980.46,439.55,372,55.17
+4,Home Depot Bedding Cold,Home & Garden,Bedding,Home Depot,511.9,267.59,440,47.73
+5,Sony Cameras Suggest,Electronics,Cameras,Sony,702.71,319.85,355,54.48
+6,H&M Pants Federal,Clothing,Pants,H&M,177.86,82.39,392,53.68
+7,Samsung Cameras Itself,Electronics,Cameras,Samsung,837.33,387.12,380,53.77
+8,HarperCollins Educational Meet,Books,Educational,HarperCollins,47.22,27.3,91,42.19
+9,Puma Fitness Avoid,Sports,Fitness,Puma,440.29,193.89,344,55.96
+10,West Elm Bedding Race,Home & Garden,Bedding,West Elm,503.37,337.68,270,32.92
+11,Gap Shirts Send,Clothing,Shirts,Gap,167.06,77.26,209,53.75
+12,Random House Comics Quality,Books,Comics,Random House,24.56,16.89,104,31.23
+13,Home Depot Furniture Order,Home & Garden,Furniture,Home Depot,234.47,134.01,220,42.85
+14,Nikon Smartphones Practice,Electronics,Smartphones,Nikon,1080.65,526.53,277,51.28
+15,Sony Headphones Personal,Electronics,Headphones,Sony,944.67,656.64,417,30.49
+16,IKEA Decor Clear,Home & Garden,Decor,IKEA,468.24,241.01,179,48.53
+17,Adidas Water Sports Majority,Sports,Water Sports,Adidas,155.46,96.26,493,38.08
+18,Adidas Pants Great,Clothing,Pants,Adidas,224.47,124.3,111,44.63
+19,Penguin Educational Congress,Books,Educational,Penguin,36.06,17.23,117,52.22
+20,Sony Smartphones Direction,Electronics,Smartphones,Sony,1469.03,620.03,198,57.79
+21,Pottery Barn Bedding Leg,Home & Garden,Bedding,Pottery Barn,573.07,326.79,295,42.98
+22,Sony Smartphones We,Electronics,Smartphones,Sony,738.11,326.92,240,55.71
+23,HP Laptops Born,Electronics,Laptops,HP,490.89,321.05,215,34.6
+24,Adidas Water Sports Again,Sports,Water Sports,Adidas,85.93,40.16,303,53.26
+25,Simon & Schuster Comics Understand,Books,Comics,Simon & Schuster,48.71,26.47,411,45.66
+26,Samsung Headphones Across,Electronics,Headphones,Samsung,93.61,38.84,16,58.51
+27,HarperCollins Educational Shake,Books,Educational,HarperCollins,23.05,14.25,463,38.18
+28,Nike Dresses Choice,Clothing,Dresses,Nike,283.25,178.06,409,37.14
+29,LG Headphones Should,Electronics,Headphones,LG,71.75,33.92,333,52.72
+30,Adidas Shirts Style,Clothing,Shirts,Adidas,162.52,108.3,122,33.36
+31,H&M Accessories Prevent,Clothing,Accessories,H&M,224.78,125.28,288,44.27
+32,Reebok Fitness Strong,Sports,Fitness,Reebok,311.84,138.33,369,55.64
+33,Sony Smartphones Hold,Electronics,Smartphones,Sony,990.08,628.67,51,36.5
+34,Wayfair Furniture Trouble,Home & Garden,Furniture,Wayfair,333.34,194.47,352,41.66
+35,Zara Accessories Position,Clothing,Accessories,Zara,25.17,16.35,367,35.04
+36,Apple Cameras Put,Electronics,Cameras,Apple,559.91,345.35,201,38.32
+37,Levi's Shoes Image,Clothing,Shoes,Levi's,99.76,62.43,281,37.42
+38,Random House Comics Cut,Books,Comics,Random House,29.95,12.38,429,58.66
+39,Penguin Comics Friend,Books,Comics,Penguin,38.2,17.88,146,53.19
+40,Nike Fitness Back,Sports,Fitness,Nike,80.86,55.35,129,31.55
+41,Wayfair Furniture Suddenly,Home & Garden,Furniture,Wayfair,363.95,167.66,349,53.93
+42,Penguin Children Space,Books,Children,Penguin,27.7,15.18,417,45.2
+43,Penguin Educational Operation,Books,Educational,Penguin,38.27,23.6,297,38.33
+44,H&M Shirts Throw,Clothing,Shirts,H&M,271.3,178.74,156,34.12
+45,Nikon Cameras Mention,Electronics,Cameras,Nikon,1647.7,723.69,244,56.08
+46,Adidas Shirts Have,Clothing,Shirts,Adidas,134.38,67.81,301,49.54
+47,Random House Fiction Local,Books,Fiction,Random House,24.05,15.66,239,34.89
+48,West Elm Decor Around,Home & Garden,Decor,West Elm,79.21,35.63,335,55.02
+49,Home Depot Decor Hit,Home & Garden,Decor,Home Depot,526.16,330.04,290,37.27
+50,Pottery Barn Tools Democrat,Home & Garden,Tools,Pottery Barn,519.3,232.01,116,55.32
+51,Adidas Outdoor Teacher,Sports,Outdoor,Adidas,88.99,46.49,19,47.76
+52,Adidas Shirts Course,Clothing,Shirts,Adidas,161.74,65.94,58,59.23
+53,Random House Fiction Analysis,Books,Fiction,Random House,30.97,14.52,404,53.12
+54,Wayfair Tools Order,Home & Garden,Tools,Wayfair,452.69,289.27,264,36.1
+55,Simon & Schuster Children Serious,Books,Children,Simon & Schuster,44.18,23.92,121,45.86
+56,Dell Tablets Else,Electronics,Tablets,Dell,301.19,197.76,262,34.34
+57,Adidas Pants However,Clothing,Pants,Adidas,294.15,180.49,188,38.64
+58,Sony Cameras Ball,Electronics,Cameras,Sony,1597.5,773.47,202,51.58
+59,Random House Fiction Do,Books,Fiction,Random House,15.38,9.91,447,35.57
+60,H&M Shirts Return,Clothing,Shirts,H&M,50.28,27.75,475,44.81
+61,Sony Laptops Program,Electronics,Laptops,Sony,449.86,267.09,55,40.63
+62,Adidas Pants Again,Clothing,Pants,Adidas,194.21,111.78,331,42.44
+63,Levi's Pants Attention,Clothing,Pants,Levi's,105.15,56.25,43,46.5
+64,Wayfair Bedding Fight,Home & Garden,Bedding,Wayfair,318.39,135.07,435,57.58
+65,Puma Team Sports Forget,Sports,Team Sports,Puma,384.06,227.92,224,40.66
+66,Gap Accessories Surface,Clothing,Accessories,Gap,91.93,41.6,97,54.75
+67,IKEA Bedding Involve,Home & Garden,Bedding,IKEA,263.12,144.29,337,45.16
+68,Pottery Barn Furniture Eye,Home & Garden,Furniture,Pottery Barn,426.08,245.69,470,42.34
+69,Puma Water Sports Street,Sports,Water Sports,Puma,314.16,164.47,107,47.65
+70,Penguin Comics Box,Books,Comics,Penguin,19.2,7.71,141,59.84
+71,Wilson Fitness Pretty,Sports,Fitness,Wilson,433.05,183.19,337,57.7
+72,Adidas Shoes Meet,Clothing,Shoes,Adidas,200.04,107.93,1,46.05
+73,Levi's Shoes Coach,Clothing,Shoes,Levi's,136.05,58.77,22,56.8
+74,Gap Shirts See,Clothing,Shirts,Gap,84.42,40.25,467,52.32
+75,Wayfair Kitchen Organization,Home & Garden,Kitchen,Wayfair,177.87,119.41,219,32.87
+76,Levi's Shoes Theory,Clothing,Shoes,Levi's,194.25,116.26,458,40.15
+77,Nike Dresses Realize,Clothing,Dresses,Nike,285.77,185.1,418,35.23
+78,Zara Dresses Fight,Clothing,Dresses,Zara,118.02,56.43,223,52.19
+79,LG Headphones Avoid,Electronics,Headphones,LG,113.62,77.69,128,31.62
+80,West Elm Tools Really,Home & Garden,Tools,West Elm,343.96,223.34,193,35.07
+81,Zara Accessories Art,Clothing,Accessories,Zara,228.37,152.8,74,33.09
+82,Gap Pants Development,Clothing,Pants,Gap,45.92,28.31,469,38.35
+83,Sony Tablets Late,Electronics,Tablets,Sony,359.58,243.36,121,32.32
+84,H&M Dresses Mind,Clothing,Dresses,H&M,108.75,66.48,419,38.87
+85,Nikon Cameras Generation,Electronics,Cameras,Nikon,635.44,330.47,94,47.99
+86,Adidas Team Sports Nice,Sports,Team Sports,Adidas,438.28,264.51,260,39.65
+87,IKEA Kitchen Address,Home & Garden,Kitchen,IKEA,164.71,95.35,262,42.11
+88,Pottery Barn Tools Impact,Home & Garden,Tools,Pottery Barn,715.87,412.65,312,42.36
+89,Adidas Fitness Out,Sports,Fitness,Adidas,265.33,123.83,330,53.33
+90,Uniqlo Dresses Statement,Clothing,Dresses,Uniqlo,265.54,160.07,152,39.72
+91,West Elm Bedding Service,Home & Garden,Bedding,West Elm,550.33,378.67,334,31.19
+92,Uniqlo Accessories Doctor,Clothing,Accessories,Uniqlo,166.11,76.09,265,54.19
+93,HarperCollins Non-Fiction Class,Books,Non-Fiction,HarperCollins,11.68,7.85,251,32.79
+94,Wayfair Tools Security,Home & Garden,Tools,Wayfair,466.18,207.36,56,55.52
+95,LG Tablets Show,Electronics,Tablets,LG,582.19,233.3,108,59.93
+96,H&M Shoes Sport,Clothing,Shoes,H&M,243.66,166.55,341,31.65
+97,Puma Water Sports Spring,Sports,Water Sports,Puma,393.27,225.08,51,42.77
+98,Random House Fiction Several,Books,Fiction,Random House,28.45,14.03,164,50.69
+99,Samsung Smartphones Need,Electronics,Smartphones,Samsung,1511.42,849.12,260,43.82
+100,Adidas Pants Wait,Clothing,Pants,Adidas,145.82,76.8,423,47.33
+101,Simon & Schuster Non-Fiction Perhaps,Books,Non-Fiction,Simon & Schuster,14.33,6.81,347,52.48
+102,HarperCollins Comics Exactly,Books,Comics,HarperCollins,13.64,5.66,148,58.5
+103,Nike Dresses Among,Clothing,Dresses,Nike,94.95,63.94,82,32.66
+104,Adidas Pants Avoid,Clothing,Pants,Adidas,104.06,58.21,419,44.06
+105,Wayfair Furniture Benefit,Home & Garden,Furniture,Wayfair,660.76,461.77,396,30.12
+106,Canon Cameras Loss,Electronics,Cameras,Canon,907.95,491.26,258,45.89
+107,H&M Dresses Bank,Clothing,Dresses,H&M,235.31,142.73,390,39.34
+108,Dell Headphones There,Electronics,Headphones,Dell,967.65,448.43,270,53.66
+109,Wayfair Bedding Customer,Home & Garden,Bedding,Wayfair,593.14,413.3,205,30.32
+110,Wilson Fitness Usually,Sports,Fitness,Wilson,176.37,92.24,458,47.7
+111,West Elm Bedding Along,Home & Garden,Bedding,West Elm,721.28,400.91,378,44.42
+112,H&M Shirts Social,Clothing,Shirts,H&M,286.86,151.18,299,47.3
+113,Penguin Children Energy,Books,Children,Penguin,31.15,19.51,484,37.37
+114,Puma Winter Sports Seat,Sports,Winter Sports,Puma,201.26,118.79,20,40.98
+115,IKEA Tools Memory,Home & Garden,Tools,IKEA,337.34,180.27,389,46.56
+116,Nikon Laptops Ahead,Electronics,Laptops,Nikon,1497.72,1025.48,5,31.53
+117,Adidas Winter Sports Present,Sports,Winter Sports,Adidas,146.59,87.69,351,40.18
+118,Gap Pants Machine,Clothing,Pants,Gap,283.75,131.9,127,53.52
+119,Random House Fiction Blood,Books,Fiction,Random House,16.4,6.63,286,59.57
+120,Nikon Cameras Newspaper,Electronics,Cameras,Nikon,1238.53,632.09,113,48.96
+121,Pottery Barn Tools Everything,Home & Garden,Tools,Pottery Barn,612.8,253.87,195,58.57
+122,Nikon Headphones Its,Electronics,Headphones,Nikon,1179.92,791.33,450,32.93
+123,Levi's Shirts These,Clothing,Shirts,Levi's,38.17,22.44,441,41.21
+124,Samsung Headphones Low,Electronics,Headphones,Samsung,1145.28,661.9,350,42.21
+125,IKEA Tools Perhaps,Home & Garden,Tools,IKEA,53.71,33.14,456,38.3
+126,Wilson Winter Sports Art,Sports,Winter Sports,Wilson,206.73,102.9,210,50.22
+127,Adidas Shirts Old,Clothing,Shirts,Adidas,190.13,84.81,303,55.39
+128,Nike Winter Sports Make,Sports,Winter Sports,Nike,114.62,65.41,244,42.93
+129,West Elm Tools Maybe,Home & Garden,Tools,West Elm,262.42,145.31,411,44.63
+130,Random House Comics Successful,Books,Comics,Random House,40.46,28.17,68,30.38
+131,Wayfair Furniture Save,Home & Garden,Furniture,Wayfair,49.1,25.29,436,48.49
+132,Adidas Water Sports East,Sports,Water Sports,Adidas,339.04,140.09,150,58.68
+133,Penguin Educational Maybe,Books,Educational,Penguin,27.29,16.38,423,39.98
+134,Wayfair Furniture Direction,Home & Garden,Furniture,Wayfair,339.11,213.46,261,37.05
+135,Reebok Outdoor Public,Sports,Outdoor,Reebok,424.94,171.3,150,59.69
+136,Nike Dresses Born,Clothing,Dresses,Nike,204.13,132.76,300,34.96
+137,Wayfair Kitchen Keep,Home & Garden,Kitchen,Wayfair,437.41,289.94,81,33.71
+138,Wayfair Kitchen Suffer,Home & Garden,Kitchen,Wayfair,483.0,242.95,475,49.7
+139,Wayfair Tools Own,Home & Garden,Tools,Wayfair,274.38,189.0,474,31.12
+140,Canon Tablets Study,Electronics,Tablets,Canon,1967.01,1128.86,294,42.61
+141,Penguin Fiction Character,Books,Fiction,Penguin,25.07,16.77,68,33.11
+142,Pottery Barn Furniture Line,Home & Garden,Furniture,Pottery Barn,501.48,266.54,334,46.85
+143,Under Armour Water Sports Hair,Sports,Water Sports,Under Armour,178.83,105.68,431,40.9
+144,Simon & Schuster Non-Fiction Poor,Books,Non-Fiction,Simon & Schuster,32.54,14.12,246,56.61
+145,Wayfair Tools Condition,Home & Garden,Tools,Wayfair,246.87,143.5,482,41.87
+146,Zara Pants Military,Clothing,Pants,Zara,214.38,143.16,188,33.22
+147,Uniqlo Pants For,Clothing,Pants,Uniqlo,192.24,79.63,51,58.58
+148,Wayfair Tools Job,Home & Garden,Tools,Wayfair,395.82,184.92,337,53.28
+149,Penguin Fiction With,Books,Fiction,Penguin,15.27,9.15,64,40.08
+150,Gap Shoes Anyone,Clothing,Shoes,Gap,75.35,42.54,497,43.54
+151,IKEA Bedding Become,Home & Garden,Bedding,IKEA,764.78,338.56,190,55.73
+152,Simon & Schuster Comics Animal,Books,Comics,Simon & Schuster,12.34,5.46,360,55.75
+153,Nike Dresses Admit,Clothing,Dresses,Nike,206.01,90.48,346,56.08
+154,Apple Laptops Instead,Electronics,Laptops,Apple,1179.19,553.71,356,53.04
+155,Samsung Smartphones Public,Electronics,Smartphones,Samsung,661.78,352.58,258,46.72
+156,Apple Tablets Politics,Electronics,Tablets,Apple,323.56,215.48,316,33.4
+157,LG Smartphones Which,Electronics,Smartphones,LG,1153.35,569.52,314,50.62
+158,Zara Dresses Reach,Clothing,Dresses,Zara,276.72,181.32,331,34.48
+159,Puma Team Sports Teacher,Sports,Team Sports,Puma,259.41,112.75,267,56.54
+160,Dell Cameras Level,Electronics,Cameras,Dell,1732.21,896.99,304,48.22
+161,Under Armour Team Sports Many,Sports,Team Sports,Under Armour,404.65,178.05,78,56.0
+162,West Elm Decor Final,Home & Garden,Decor,West Elm,360.22,226.05,277,37.25
+163,IKEA Kitchen Approach,Home & Garden,Kitchen,IKEA,459.58,218.84,240,52.38
+164,Gap Pants Ability,Clothing,Pants,Gap,38.24,20.28,219,46.97
+165,Nike Water Sports Phone,Sports,Water Sports,Nike,115.61,76.87,267,33.51
+166,Puma Outdoor Risk,Sports,Outdoor,Puma,207.14,102.33,393,50.6
+167,Adidas Dresses Maintain,Clothing,Dresses,Adidas,99.05,53.93,227,45.55
+168,HP Headphones Around,Electronics,Headphones,HP,1980.29,1033.84,402,47.79
+169,Random House Children At,Books,Children,Random House,36.1,21.07,149,41.63
+170,Under Armour Outdoor Must,Sports,Outdoor,Under Armour,152.87,81.72,39,46.54
+171,Apple Laptops Dinner,Electronics,Laptops,Apple,871.32,567.99,36,34.81
+172,Uniqlo Accessories Cause,Clothing,Accessories,Uniqlo,182.71,100.82,467,44.82
+173,H&M Pants Hospital,Clothing,Pants,H&M,47.86,30.96,192,35.31
+174,Nikon Cameras Professional,Electronics,Cameras,Nikon,1382.01,793.49,354,42.58
+175,Levi's Shoes Republican,Clothing,Shoes,Levi's,94.62,59.49,288,37.13
+176,West Elm Bedding Risk,Home & Garden,Bedding,West Elm,91.3,52.81,188,42.16
+177,Puma Team Sports Stay,Sports,Team Sports,Puma,200.72,107.32,123,46.53
+178,Reebok Fitness Information,Sports,Fitness,Reebok,245.59,158.47,245,35.47
+179,Gap Shoes I,Clothing,Shoes,Gap,240.02,117.34,498,51.11
+180,HarperCollins Non-Fiction Six,Books,Non-Fiction,HarperCollins,27.76,15.13,151,45.5
+181,IKEA Tools Trial,Home & Garden,Tools,IKEA,613.72,317.89,433,48.2
+182,Simon & Schuster Non-Fiction Away,Books,Non-Fiction,Simon & Schuster,21.1,11.75,243,44.31
+183,Puma Water Sports Off,Sports,Water Sports,Puma,170.9,114.76,222,32.85
+184,Canon Headphones Across,Electronics,Headphones,Canon,208.32,122.52,136,41.19
+185,Nike Outdoor Huge,Sports,Outdoor,Nike,349.58,167.36,9,52.13
+186,Home Depot Decor Between,Home & Garden,Decor,Home Depot,195.92,137.06,334,30.04
+187,Adidas Winter Sports About,Sports,Winter Sports,Adidas,111.76,65.15,70,41.71
+188,Puma Winter Sports New,Sports,Winter Sports,Puma,79.7,41.87,14,47.47
+189,Simon & Schuster Educational Whether,Books,Educational,Simon & Schuster,16.62,8.66,307,47.89
+190,Wayfair Decor Ground,Home & Garden,Decor,Wayfair,756.29,466.54,156,38.31
+191,Dell Laptops Stop,Electronics,Laptops,Dell,1584.57,893.39,331,43.62
+192,Penguin Educational Either,Books,Educational,Penguin,14.47,7.78,20,46.23
+193,Sony Smartphones Talk,Electronics,Smartphones,Sony,681.62,377.77,302,44.58
+194,Adidas Shirts Long,Clothing,Shirts,Adidas,115.08,57.61,170,49.94
+195,Gap Pants Amount,Clothing,Pants,Gap,121.21,62.92,109,48.09
+196,Puma Team Sports According,Sports,Team Sports,Puma,405.0,275.7,227,31.93
+197,Random House Non-Fiction Money,Books,Non-Fiction,Random House,32.82,20.57,231,37.32
+198,IKEA Furniture Assume,Home & Garden,Furniture,IKEA,777.98,330.72,7,57.49
+199,Penguin Non-Fiction Themselves,Books,Non-Fiction,Penguin,25.72,16.86,259,34.45
+200,Puma Outdoor Against,Sports,Outdoor,Puma,378.2,189.75,280,49.83
+201,Adidas Outdoor Black,Sports,Outdoor,Adidas,253.61,135.73,433,46.48
+202,Sony Cameras According,Electronics,Cameras,Sony,287.44,189.59,102,34.04
+203,LG Cameras Wide,Electronics,Cameras,LG,1374.3,799.95,14,41.79
+204,HarperCollins Non-Fiction Citizen,Books,Non-Fiction,HarperCollins,42.87,18.72,110,56.33
+205,Penguin Fiction Social,Books,Fiction,Penguin,20.15,13.32,373,33.9
+206,Reebok Team Sports Challenge,Sports,Team Sports,Reebok,188.26,108.85,438,42.18
+207,HarperCollins Non-Fiction Cause,Books,Non-Fiction,HarperCollins,27.75,11.82,38,57.41
+208,Wilson Team Sports Share,Sports,Team Sports,Wilson,97.0,57.63,433,40.59
+209,Puma Team Sports But,Sports,Team Sports,Puma,263.27,107.15,166,59.3
+210,Random House Educational Condition,Books,Educational,Random House,36.55,19.16,62,47.58
+211,HarperCollins Children Scientist,Books,Children,HarperCollins,37.15,20.13,364,45.81
+212,LG Cameras Individual,Electronics,Cameras,LG,1529.88,733.94,297,52.03
+213,Nikon Cameras Opportunity,Electronics,Cameras,Nikon,302.03,149.66,378,50.45
+214,Levi's Dresses Them,Clothing,Dresses,Levi's,269.55,159.24,242,40.92
+215,Pottery Barn Tools Discover,Home & Garden,Tools,Pottery Barn,725.74,342.33,484,52.83
+216,HP Tablets Tv,Electronics,Tablets,HP,1582.28,785.46,413,50.36
+217,Uniqlo Shirts Yet,Clothing,Shirts,Uniqlo,39.61,25.25,441,36.25
+218,HarperCollins Non-Fiction Positive,Books,Non-Fiction,HarperCollins,21.08,11.37,411,46.06
+219,Uniqlo Pants Analysis,Clothing,Pants,Uniqlo,60.63,36.97,189,39.02
+220,Simon & Schuster Comics From,Books,Comics,Simon & Schuster,37.78,23.81,441,36.98
+221,Nikon Smartphones Big,Electronics,Smartphones,Nikon,1653.78,911.88,190,44.86
+222,West Elm Decor Through,Home & Garden,Decor,West Elm,340.29,137.8,378,59.51
+223,Sony Laptops Skill,Electronics,Laptops,Sony,1181.82,498.95,385,57.78
+224,Penguin Children Also,Books,Children,Penguin,34.35,23.53,265,31.5
+225,IKEA Tools Campaign,Home & Garden,Tools,IKEA,260.08,171.0,404,34.25
+226,Adidas Team Sports Win,Sports,Team Sports,Adidas,402.69,255.52,281,36.55
+227,Home Depot Bedding There,Home & Garden,Bedding,Home Depot,762.36,322.56,269,57.69
+228,Apple Cameras Ball,Electronics,Cameras,Apple,1508.88,1052.71,495,30.23
+229,Gap Pants Sort,Clothing,Pants,Gap,68.25,29.67,258,56.53
+230,Levi's Shirts Who,Clothing,Shirts,Levi's,65.99,31.08,8,52.9
+231,Reebok Winter Sports Walk,Sports,Winter Sports,Reebok,411.13,179.05,171,56.45
+232,Canon Smartphones Office,Electronics,Smartphones,Canon,921.49,571.51,36,37.98
+233,Simon & Schuster Children When,Books,Children,Simon & Schuster,47.12,22.54,358,52.16
+234,Simon & Schuster Educational Author,Books,Educational,Simon & Schuster,17.19,11.88,340,30.89
+235,Nike Team Sports Similar,Sports,Team Sports,Nike,492.62,279.36,86,43.29
+236,H&M Accessories Human,Clothing,Accessories,H&M,186.43,78.48,96,57.9
+237,H&M Pants Others,Clothing,Pants,H&M,24.45,13.72,161,43.89
+238,Wayfair Furniture Deal,Home & Garden,Furniture,Wayfair,340.12,143.8,481,57.72
+239,Penguin Comics Strategy,Books,Comics,Penguin,22.46,9.8,188,56.37
+240,Puma Team Sports Exist,Sports,Team Sports,Puma,296.77,169.41,446,42.92
+241,HarperCollins Comics She,Books,Comics,HarperCollins,39.81,17.44,261,56.19
+242,Home Depot Decor Per,Home & Garden,Decor,Home Depot,343.66,209.52,273,39.03
+243,Simon & Schuster Educational Brother,Books,Educational,Simon & Schuster,20.98,13.92,24,33.65
+244,Simon & Schuster Educational Accept,Books,Educational,Simon & Schuster,27.52,13.55,338,50.76
+245,Nike Fitness Stay,Sports,Fitness,Nike,102.08,68.16,486,33.23
+246,LG Headphones Idea,Electronics,Headphones,LG,1723.09,1070.08,448,37.9
+247,Apple Smartphones Whole,Electronics,Smartphones,Apple,1741.91,870.59,174,50.02
+248,H&M Shirts Major,Clothing,Shirts,H&M,214.4,92.95,236,56.65
+249,IKEA Kitchen Least,Home & Garden,Kitchen,IKEA,518.22,247.24,154,52.29
+250,Under Armour Fitness Power,Sports,Fitness,Under Armour,28.97,12.55,493,56.68
+251,Uniqlo Dresses National,Clothing,Dresses,Uniqlo,105.68,46.31,175,56.18
+252,Random House Non-Fiction Wear,Books,Non-Fiction,Random House,37.12,18.15,392,51.1
+253,Nikon Headphones Me,Electronics,Headphones,Nikon,1469.8,881.83,151,40.0
+254,Puma Fitness Threat,Sports,Fitness,Puma,299.99,158.68,363,47.1
+255,Apple Cameras Attention,Electronics,Cameras,Apple,61.02,42.57,70,30.24
+256,IKEA Kitchen Among,Home & Garden,Kitchen,IKEA,701.46,327.94,105,53.25
+257,Levi's Pants This,Clothing,Pants,Levi's,130.62,59.19,349,54.69
+258,Random House Children Break,Books,Children,Random House,14.59,9.01,284,38.25
+259,Puma Team Sports Father,Sports,Team Sports,Puma,484.3,237.34,301,50.99
+260,Adidas Water Sports Positive,Sports,Water Sports,Adidas,130.45,65.6,158,49.71
+261,Reebok Water Sports Focus,Sports,Water Sports,Reebok,463.01,276.43,35,40.3
+262,Penguin Comics Base,Books,Comics,Penguin,15.22,7.2,237,52.69
+263,Gap Pants Beat,Clothing,Pants,Gap,236.07,159.55,166,32.41
+264,Nike Accessories Strong,Clothing,Accessories,Nike,256.22,122.56,487,52.17
+265,Gap Shirts Suggest,Clothing,Shirts,Gap,139.4,77.79,62,44.2
+266,Pottery Barn Bedding Yard,Home & Garden,Bedding,Pottery Barn,776.82,526.23,391,32.26
+267,Simon & Schuster Non-Fiction Standard,Books,Non-Fiction,Simon & Schuster,32.54,14.19,167,56.39
+268,Wilson Team Sports Large,Sports,Team Sports,Wilson,154.68,90.94,256,41.21
+269,HP Laptops Drop,Electronics,Laptops,HP,984.99,566.74,311,42.46
+270,Wayfair Bedding Think,Home & Garden,Bedding,Wayfair,514.13,302.77,147,41.11
+271,Wayfair Furniture Country,Home & Garden,Furniture,Wayfair,390.25,160.0,278,59.0
+272,Nike Team Sports Operation,Sports,Team Sports,Nike,446.06,215.22,481,51.75
+273,Samsung Headphones Citizen,Electronics,Headphones,Samsung,1414.98,568.57,451,59.82
+274,IKEA Furniture Six,Home & Garden,Furniture,IKEA,217.76,106.56,105,51.07
+275,Levi's Dresses Civil,Clothing,Dresses,Levi's,118.01,62.93,152,46.67
+276,Dell Smartphones Him,Electronics,Smartphones,Dell,626.84,263.34,3,57.99
+277,West Elm Bedding Brother,Home & Garden,Bedding,West Elm,562.75,337.04,228,40.11
+278,Simon & Schuster Comics Out,Books,Comics,Simon & Schuster,26.08,17.92,274,31.29
+279,Wilson Water Sports I,Sports,Water Sports,Wilson,133.07,57.3,301,56.94
+280,Reebok Winter Sports Even,Sports,Winter Sports,Reebok,367.89,244.71,61,33.48
+281,H&M Pants Spring,Clothing,Pants,H&M,52.14,21.61,318,58.55
+282,Wilson Outdoor Central,Sports,Outdoor,Wilson,415.94,195.19,24,53.07
+283,Adidas Winter Sports Which,Sports,Winter Sports,Adidas,238.96,118.78,174,50.29
+284,Nike Dresses Whose,Clothing,Dresses,Nike,178.36,75.49,6,57.68
+285,Simon & Schuster Educational Performance,Books,Educational,Simon & Schuster,40.87,22.7,364,44.46
+286,Gap Pants Write,Clothing,Pants,Gap,97.76,44.61,124,54.37
+287,Simon & Schuster Children Girl,Books,Children,Simon & Schuster,43.05,21.53,204,49.99
+288,Wilson Winter Sports Movement,Sports,Winter Sports,Wilson,496.85,218.35,143,56.05
+289,West Elm Tools Program,Home & Garden,Tools,West Elm,680.58,339.46,137,50.12
+290,Adidas Winter Sports Imagine,Sports,Winter Sports,Adidas,46.6,20.84,154,55.28
+291,Sony Headphones Campaign,Electronics,Headphones,Sony,1118.83,599.59,350,46.41
+292,Reebok Fitness Lead,Sports,Fitness,Reebok,382.1,163.73,449,57.15
+293,Sony Headphones Like,Electronics,Headphones,Sony,358.36,235.86,197,34.18
+294,LG Cameras Child,Electronics,Cameras,LG,962.35,464.34,252,51.75
+295,Wilson Team Sports Boy,Sports,Team Sports,Wilson,211.07,121.74,453,42.32
+296,IKEA Tools At,Home & Garden,Tools,IKEA,626.54,428.57,132,31.6
+297,West Elm Tools Water,Home & Garden,Tools,West Elm,59.09,40.97,359,30.67
+298,H&M Shirts Two,Clothing,Shirts,H&M,203.21,86.16,388,57.6
+299,Sony Laptops Memory,Electronics,Laptops,Sony,257.7,112.92,361,56.18
+300,Levi's Shoes Again,Clothing,Shoes,Levi's,241.64,105.01,0,56.54
+301,Nike Pants Trip,Clothing,Pants,Nike,93.76,43.28,406,53.84
+302,West Elm Tools Stay,Home & Garden,Tools,West Elm,735.01,366.55,446,50.13
+303,Levi's Accessories Clearly,Clothing,Accessories,Levi's,103.02,56.98,13,44.69
+304,Under Armour Outdoor Tax,Sports,Outdoor,Under Armour,355.55,169.16,160,52.42
+305,Canon Headphones General,Electronics,Headphones,Canon,472.69,196.0,26,58.54
+306,Under Armour Water Sports Environment,Sports,Water Sports,Under Armour,382.41,176.92,134,53.74
+307,Uniqlo Accessories Too,Clothing,Accessories,Uniqlo,256.43,137.45,386,46.4
+308,IKEA Bedding Fish,Home & Garden,Bedding,IKEA,787.1,505.74,372,35.75
+309,Uniqlo Dresses Stop,Clothing,Dresses,Uniqlo,271.76,167.94,301,38.2
+310,IKEA Bedding Teacher,Home & Garden,Bedding,IKEA,204.25,82.76,277,59.48
+311,Zara Accessories Physical,Clothing,Accessories,Zara,182.04,108.14,50,40.6
+312,Sony Laptops In,Electronics,Laptops,Sony,696.22,482.6,485,30.68
+313,Dell Laptops Four,Electronics,Laptops,Dell,859.4,382.2,434,55.53
+314,Canon Tablets General,Electronics,Tablets,Canon,1756.89,802.56,241,54.32
+315,Nikon Cameras Also,Electronics,Cameras,Nikon,113.13,65.15,272,42.41
+316,Zara Pants Close,Clothing,Pants,Zara,100.9,59.35,148,41.18
+317,Penguin Non-Fiction Seat,Books,Non-Fiction,Penguin,31.97,15.41,261,51.8
+318,West Elm Tools Fact,Home & Garden,Tools,West Elm,683.78,399.98,402,41.5
+319,HarperCollins Fiction Wind,Books,Fiction,HarperCollins,44.92,27.98,222,37.71
+320,Simon & Schuster Non-Fiction Single,Books,Non-Fiction,Simon & Schuster,11.16,4.84,449,56.63
+321,West Elm Bedding Close,Home & Garden,Bedding,West Elm,614.38,300.51,340,51.09
+322,H&M Shirts Wear,Clothing,Shirts,H&M,236.52,160.77,413,32.03
+323,Dell Laptops Sense,Electronics,Laptops,Dell,723.57,452.87,393,37.41
+324,Pottery Barn Bedding Because,Home & Garden,Bedding,Pottery Barn,379.47,219.52,402,42.15
+325,H&M Dresses Three,Clothing,Dresses,H&M,95.42,66.48,180,30.33
+326,Nike Shoes National,Clothing,Shoes,Nike,96.77,42.0,122,56.6
+327,Home Depot Kitchen Record,Home & Garden,Kitchen,Home Depot,498.14,214.59,66,56.92
+328,Samsung Cameras Structure,Electronics,Cameras,Samsung,1923.67,1156.23,148,39.89
+329,HarperCollins Fiction Change,Books,Fiction,HarperCollins,35.94,14.68,176,59.15
+330,Nikon Smartphones Whole,Electronics,Smartphones,Nikon,1395.9,735.64,134,47.3
+331,Home Depot Furniture Gas,Home & Garden,Furniture,Home Depot,40.52,17.15,465,57.68
+332,Gap Pants These,Clothing,Pants,Gap,132.85,90.86,269,31.61
+333,Puma Winter Sports Successful,Sports,Winter Sports,Puma,316.66,208.45,132,34.17
+334,Wilson Fitness Everyone,Sports,Fitness,Wilson,197.09,100.42,55,49.05
+335,Sony Laptops Provide,Electronics,Laptops,Sony,1378.22,567.0,382,58.86
+336,Dell Headphones Network,Electronics,Headphones,Dell,1786.11,1009.15,313,43.5
+337,HarperCollins Fiction Apply,Books,Fiction,HarperCollins,38.56,23.56,32,38.9
+338,Reebok Fitness Glass,Sports,Fitness,Reebok,306.8,144.2,176,53.0
+339,LG Cameras Safe,Electronics,Cameras,LG,1711.42,1153.42,164,32.6
+340,Random House Comics Man,Books,Comics,Random House,48.78,26.87,236,44.92
+341,Simon & Schuster Comics Yourself,Books,Comics,Simon & Schuster,49.02,32.43,342,33.84
+342,Random House Fiction Hair,Books,Fiction,Random House,45.76,28.96,112,36.71
+343,Zara Dresses Prepare,Clothing,Dresses,Zara,295.3,174.38,60,40.95
+344,Uniqlo Pants Third,Clothing,Pants,Uniqlo,209.8,118.53,37,43.5
+345,Apple Laptops Get,Electronics,Laptops,Apple,996.24,633.05,382,36.46
+346,Nike Fitness Able,Sports,Fitness,Nike,428.85,217.28,476,49.33
+347,LG Tablets Up,Electronics,Tablets,LG,679.03,285.37,138,57.97
+348,Wilson Water Sports Conference,Sports,Water Sports,Wilson,319.09,178.33,321,44.11
+349,Puma Outdoor Financial,Sports,Outdoor,Puma,70.16,42.25,360,39.78
+350,Wilson Winter Sports Change,Sports,Winter Sports,Wilson,64.09,37.49,370,41.5
+351,Apple Tablets Enter,Electronics,Tablets,Apple,464.62,238.08,157,48.76
+352,Canon Headphones Rather,Electronics,Headphones,Canon,633.96,441.92,208,30.29
+353,HarperCollins Non-Fiction Speak,Books,Non-Fiction,HarperCollins,13.99,8.86,459,36.67
+354,Samsung Smartphones Certainly,Electronics,Smartphones,Samsung,758.33,442.25,455,41.68
+355,Nike Pants Kid,Clothing,Pants,Nike,280.4,171.65,106,38.78
+356,Sony Smartphones Dinner,Electronics,Smartphones,Sony,1892.68,1124.12,385,40.61
+357,Home Depot Bedding Election,Home & Garden,Bedding,Home Depot,351.75,171.49,259,51.25
+358,Gap Shirts House,Clothing,Shirts,Gap,42.79,17.26,490,59.66
+359,Levi's Pants Country,Clothing,Pants,Levi's,296.75,160.52,66,45.91
+360,Zara Shirts Dream,Clothing,Shirts,Zara,187.77,80.5,343,57.13
+361,Simon & Schuster Educational Business,Books,Educational,Simon & Schuster,22.31,10.86,485,51.32
+362,Under Armour Outdoor Receive,Sports,Outdoor,Under Armour,264.93,182.17,323,31.24
+363,Random House Comics Major,Books,Comics,Random House,34.58,20.88,405,39.62
+364,HarperCollins Comics Professional,Books,Comics,HarperCollins,25.98,13.98,406,46.19
+365,Uniqlo Shirts Full,Clothing,Shirts,Uniqlo,267.83,107.79,342,59.75
+366,Adidas Team Sports Field,Sports,Team Sports,Adidas,335.95,139.32,96,58.53
+367,Wilson Outdoor Most,Sports,Outdoor,Wilson,479.37,241.02,347,49.72
+368,Canon Laptops Level,Electronics,Laptops,Canon,440.03,304.49,23,30.8
+369,Penguin Educational Modern,Books,Educational,Penguin,36.48,19.7,416,46.0
+370,Wayfair Bedding Yes,Home & Garden,Bedding,Wayfair,79.46,36.41,374,54.18
+371,Pottery Barn Furniture Capital,Home & Garden,Furniture,Pottery Barn,224.56,111.87,198,50.18
+372,Under Armour Outdoor Three,Sports,Outdoor,Under Armour,254.54,162.16,391,36.29
+373,Nike Dresses Rich,Clothing,Dresses,Nike,90.56,45.09,264,50.21
+374,Nike Outdoor Daughter,Sports,Outdoor,Nike,193.84,93.91,487,51.55
+375,Wayfair Tools Class,Home & Garden,Tools,Wayfair,335.39,171.38,368,48.9
+376,HP Laptops Able,Electronics,Laptops,HP,1735.61,1055.22,276,39.2
+377,Nike Pants Clear,Clothing,Pants,Nike,160.21,87.61,215,45.32
+378,Apple Headphones Adult,Electronics,Headphones,Apple,1656.77,1099.5,431,33.64
+379,Sony Laptops Institution,Electronics,Laptops,Sony,1884.4,1128.83,459,40.1
+380,LG Cameras Believe,Electronics,Cameras,LG,1220.24,545.3,382,55.31
+381,Nike Accessories Road,Clothing,Accessories,Nike,167.86,87.85,241,47.66
+382,Uniqlo Shoes Design,Clothing,Shoes,Uniqlo,40.08,16.56,68,58.68
+383,Wayfair Kitchen Power,Home & Garden,Kitchen,Wayfair,124.55,70.94,203,43.04
+384,Adidas Water Sports Suffer,Sports,Water Sports,Adidas,109.81,43.97,33,59.96
+385,Samsung Smartphones Public,Electronics,Smartphones,Samsung,765.0,530.43,108,30.66
+386,Simon & Schuster Fiction Case,Books,Fiction,Simon & Schuster,28.64,17.29,416,39.63
+387,H&M Accessories Address,Clothing,Accessories,H&M,186.21,89.42,266,51.98
+388,H&M Accessories Easy,Clothing,Accessories,H&M,138.82,56.18,483,59.53
+389,Wilson Outdoor Born,Sports,Outdoor,Wilson,141.11,91.7,377,35.02
+390,Nike Winter Sports Star,Sports,Winter Sports,Nike,317.74,141.89,219,55.34
+391,Dell Headphones Need,Electronics,Headphones,Dell,1405.18,692.08,449,50.75
+392,Reebok Water Sports Just,Sports,Water Sports,Reebok,400.82,227.64,163,43.21
+393,HP Laptops Listen,Electronics,Laptops,HP,613.33,277.02,132,54.83
+394,West Elm Kitchen Large,Home & Garden,Kitchen,West Elm,197.6,87.14,419,55.9
+395,Nike Water Sports Theory,Sports,Water Sports,Nike,125.78,57.93,94,53.94
+396,Zara Shirts Sign,Clothing,Shirts,Zara,172.89,89.95,122,47.97
+397,Adidas Pants Stock,Clothing,Pants,Adidas,38.14,23.71,375,37.83
+398,Adidas Dresses Technology,Clothing,Dresses,Adidas,83.36,53.17,242,36.22
+399,Adidas Outdoor Maintain,Sports,Outdoor,Adidas,88.76,37.48,305,57.77
+400,Apple Headphones Far,Electronics,Headphones,Apple,1107.09,697.08,491,37.03
+401,Home Depot Kitchen Food,Home & Garden,Kitchen,Home Depot,173.84,103.69,437,40.35
+402,Wayfair Tools National,Home & Garden,Tools,Wayfair,91.67,47.76,370,47.9
+403,HarperCollins Fiction Usually,Books,Fiction,HarperCollins,30.65,19.55,77,36.22
+404,Penguin Non-Fiction Computer,Books,Non-Fiction,Penguin,27.01,15.7,437,41.87
+405,HarperCollins Educational Could,Books,Educational,HarperCollins,26.16,10.59,401,59.52
+406,Wilson Winter Sports Mrs,Sports,Winter Sports,Wilson,114.78,52.52,40,54.24
+407,HarperCollins Non-Fiction Skill,Books,Non-Fiction,HarperCollins,22.54,10.02,84,55.55
+408,Simon & Schuster Comics Middle,Books,Comics,Simon & Schuster,38.85,18.51,83,52.36
+409,Penguin Educational Once,Books,Educational,Penguin,34.67,20.38,261,41.22
+410,Levi's Accessories Activity,Clothing,Accessories,Levi's,189.56,114.49,471,39.6
+411,Nike Water Sports Moment,Sports,Water Sports,Nike,274.55,119.26,467,56.56
+412,Zara Pants Which,Clothing,Pants,Zara,182.75,116.14,26,36.45
+413,Wayfair Decor Day,Home & Garden,Decor,Wayfair,346.59,208.59,450,39.82
+414,Wilson Water Sports Possible,Sports,Water Sports,Wilson,369.27,154.3,142,58.21
+415,Apple Tablets Assume,Electronics,Tablets,Apple,1014.54,500.45,287,50.67
+416,HarperCollins Fiction Animal,Books,Fiction,HarperCollins,11.4,6.41,274,43.77
+417,Zara Accessories Will,Clothing,Accessories,Zara,244.54,164.95,475,32.55
+418,Under Armour Team Sports They,Sports,Team Sports,Under Armour,150.2,69.47,119,53.75
+419,Pottery Barn Tools Way,Home & Garden,Tools,Pottery Barn,209.94,114.82,158,45.31
+420,Random House Non-Fiction Firm,Books,Non-Fiction,Random House,13.01,5.33,111,59.03
+421,Under Armour Fitness Population,Sports,Fitness,Under Armour,251.05,135.87,355,45.88
+422,Nike Outdoor Lay,Sports,Outdoor,Nike,239.3,139.06,96,41.89
+423,Under Armour Water Sports Drug,Sports,Water Sports,Under Armour,153.25,62.91,7,58.95
+424,Samsung Headphones Almost,Electronics,Headphones,Samsung,1973.41,1098.41,448,44.34
+425,Nike Winter Sports Save,Sports,Winter Sports,Nike,367.48,217.87,264,40.71
+426,Puma Team Sports Particular,Sports,Team Sports,Puma,172.14,81.27,72,52.79
+427,Apple Cameras Who,Electronics,Cameras,Apple,203.76,99.04,489,51.39
+428,Home Depot Tools Imagine,Home & Garden,Tools,Home Depot,444.2,273.47,221,38.44
+429,Levi's Shirts Key,Clothing,Shirts,Levi's,99.61,61.2,328,38.56
+430,Adidas Pants Include,Clothing,Pants,Adidas,96.39,43.14,13,55.24
+431,Canon Cameras Trial,Electronics,Cameras,Canon,1383.94,588.97,428,57.44
+432,Nike Shoes List,Clothing,Shoes,Nike,33.35,13.95,307,58.17
+433,H&M Dresses Sometimes,Clothing,Dresses,H&M,226.08,90.96,265,59.77
+434,Under Armour Outdoor Think,Sports,Outdoor,Under Armour,366.46,242.89,124,33.72
+435,Home Depot Tools Leave,Home & Garden,Tools,Home Depot,112.77,74.28,28,34.13
+436,Uniqlo Shirts Contain,Clothing,Shirts,Uniqlo,40.11,17.18,293,57.17
+437,LG Cameras Out,Electronics,Cameras,LG,707.01,442.56,197,37.4
+438,Random House Comics Human,Books,Comics,Random House,18.91,8.29,398,56.16
+439,Simon & Schuster Fiction Almost,Books,Fiction,Simon & Schuster,43.84,25.66,154,41.47
+440,Under Armour Water Sports Project,Sports,Water Sports,Under Armour,133.12,92.67,251,30.39
+441,Samsung Smartphones Close,Electronics,Smartphones,Samsung,280.88,133.47,300,52.48
+442,Puma Outdoor Yourself,Sports,Outdoor,Puma,90.06,49.21,74,45.36
+443,Adidas Shirts Structure,Clothing,Shirts,Adidas,76.56,48.82,42,36.23
+444,Zara Dresses Security,Clothing,Dresses,Zara,147.95,73.75,69,50.15
+445,Adidas Accessories Politics,Clothing,Accessories,Adidas,276.47,175.15,284,36.65
+446,Canon Headphones Time,Electronics,Headphones,Canon,212.59,138.43,444,34.88
+447,LG Cameras Leader,Electronics,Cameras,LG,90.45,37.04,30,59.05
+448,Pottery Barn Tools Young,Home & Garden,Tools,Pottery Barn,123.05,57.39,201,53.36
+449,Zara Dresses Rather,Clothing,Dresses,Zara,176.69,106.98,104,39.45
+450,Home Depot Decor Forget,Home & Garden,Decor,Home Depot,469.0,290.89,84,37.98
+451,Pottery Barn Tools Three,Home & Garden,Tools,Pottery Barn,34.34,14.04,493,59.11
+452,Random House Fiction Poor,Books,Fiction,Random House,24.68,13.91,349,43.64
+453,Nike Fitness Piece,Sports,Fitness,Nike,90.11,40.72,118,54.81
+454,Simon & Schuster Comics Available,Books,Comics,Simon & Schuster,43.48,22.26,121,48.8
+455,Simon & Schuster Non-Fiction What,Books,Non-Fiction,Simon & Schuster,24.53,15.19,164,38.08
+456,Penguin Comics Public,Books,Comics,Penguin,27.33,13.2,338,51.7
+457,Nike Water Sports Analysis,Sports,Water Sports,Nike,171.91,77.1,426,55.15
+458,Sony Tablets Even,Electronics,Tablets,Sony,398.14,204.18,362,48.72
+459,Random House Non-Fiction Structure,Books,Non-Fiction,Random House,17.13,11.6,150,32.28
+460,Random House Non-Fiction Send,Books,Non-Fiction,Random House,45.89,20.23,195,55.92
+461,Penguin Comics Mind,Books,Comics,Penguin,41.96,17.24,269,58.91
+462,West Elm Kitchen Can,Home & Garden,Kitchen,West Elm,306.61,149.57,48,51.22
+463,HarperCollins Comics Join,Books,Comics,HarperCollins,26.55,18.2,128,31.45
+464,HarperCollins Educational Finish,Books,Educational,HarperCollins,36.96,19.61,344,46.94
+465,Dell Smartphones Term,Electronics,Smartphones,Dell,1501.23,945.06,437,37.05
+466,Pottery Barn Tools Physical,Home & Garden,Tools,Pottery Barn,400.61,231.95,103,42.1
+467,HarperCollins Non-Fiction Generation,Books,Non-Fiction,HarperCollins,21.91,9.13,292,58.33
+468,Wayfair Bedding Treatment,Home & Garden,Bedding,Wayfair,786.47,403.34,5,48.72
+469,IKEA Decor Even,Home & Garden,Decor,IKEA,254.41,166.98,398,34.37
+470,Wilson Outdoor Then,Sports,Outdoor,Wilson,36.16,18.54,446,48.73
+471,Levi's Shoes Full,Clothing,Shoes,Levi's,41.85,24.59,255,41.24
+472,Under Armour Water Sports Pull,Sports,Water Sports,Under Armour,126.28,76.58,154,39.36
+473,Home Depot Tools Morning,Home & Garden,Tools,Home Depot,432.68,204.2,466,52.81
+474,Canon Headphones Time,Electronics,Headphones,Canon,1583.28,891.12,244,43.72
+475,Canon Cameras Evidence,Electronics,Cameras,Canon,213.61,118.55,96,44.5
+476,IKEA Bedding Significant,Home & Garden,Bedding,IKEA,436.19,218.21,478,49.97
+477,IKEA Kitchen Fly,Home & Garden,Kitchen,IKEA,197.46,98.79,119,49.97
+478,Random House Comics Where,Books,Comics,Random House,26.03,14.48,115,44.37
+479,HarperCollins Comics Investment,Books,Comics,HarperCollins,31.25,20.27,410,35.14
+480,IKEA Furniture Guy,Home & Garden,Furniture,IKEA,315.8,133.46,299,57.74
+481,IKEA Tools Management,Home & Garden,Tools,IKEA,728.59,427.96,33,41.26
+482,Adidas Shoes Main,Clothing,Shoes,Adidas,262.65,167.68,200,36.16
+483,Adidas Shirts Series,Clothing,Shirts,Adidas,95.13,40.34,449,57.59
+484,Pottery Barn Furniture Your,Home & Garden,Furniture,Pottery Barn,462.49,242.09,411,47.66
+485,Adidas Team Sports Buy,Sports,Team Sports,Adidas,227.11,150.25,2,33.84
+486,Reebok Outdoor Else,Sports,Outdoor,Reebok,445.99,214.72,462,51.86
+487,H&M Shirts Rise,Clothing,Shirts,H&M,99.37,66.56,233,33.02
+488,Nikon Laptops Teacher,Electronics,Laptops,Nikon,1355.47,674.69,367,50.22
+489,Adidas Fitness We,Sports,Fitness,Adidas,216.08,136.0,345,37.06
+490,Home Depot Kitchen Property,Home & Garden,Kitchen,Home Depot,319.43,178.77,133,44.03
+491,Random House Comics Little,Books,Comics,Random House,38.46,25.98,61,32.45
+492,Wilson Water Sports Bring,Sports,Water Sports,Wilson,234.25,130.21,346,44.41
+493,Nike Fitness Guy,Sports,Fitness,Nike,443.7,282.79,155,36.27
+494,H&M Dresses Decade,Clothing,Dresses,H&M,220.96,125.38,437,43.26
+495,Reebok Outdoor Environmental,Sports,Outdoor,Reebok,453.2,277.19,459,38.84
+496,HP Smartphones Computer,Electronics,Smartphones,HP,452.85,196.15,50,56.69
+497,Simon & Schuster Non-Fiction Make,Books,Non-Fiction,Simon & Schuster,33.0,15.08,204,54.3
+498,Puma Winter Sports Morning,Sports,Winter Sports,Puma,163.86,86.23,89,47.38
+499,Canon Laptops Skin,Electronics,Laptops,Canon,717.74,502.03,111,30.05
+500,Random House Comics Party,Books,Comics,Random House,35.9,15.83,342,55.91
+501,IKEA Tools Development,Home & Garden,Tools,IKEA,417.52,283.02,397,32.21
+502,Reebok Winter Sports Prove,Sports,Winter Sports,Reebok,367.04,164.53,276,55.17
+503,Sony Headphones Thousand,Electronics,Headphones,Sony,621.87,420.6,210,32.37
+504,Wilson Team Sports Contain,Sports,Team Sports,Wilson,188.38,126.68,179,32.75
+505,Nike Shirts Near,Clothing,Shirts,Nike,149.96,61.09,201,59.26
+506,IKEA Kitchen When,Home & Garden,Kitchen,IKEA,325.3,221.88,151,31.79
+507,H&M Shoes Time,Clothing,Shoes,H&M,122.61,50.63,358,58.71
+508,H&M Dresses Majority,Clothing,Dresses,H&M,247.36,113.33,445,54.18
+509,Zara Dresses Speech,Clothing,Dresses,Zara,192.93,134.75,456,30.16
+510,Simon & Schuster Educational Dinner,Books,Educational,Simon & Schuster,26.59,10.92,40,58.93
+511,Canon Tablets Child,Electronics,Tablets,Canon,1103.13,578.35,191,47.57
+512,Random House Non-Fiction Write,Books,Non-Fiction,Random House,48.13,29.0,209,39.75
+513,Home Depot Kitchen Stay,Home & Garden,Kitchen,Home Depot,226.63,150.78,342,33.47
+514,Dell Laptops Standard,Electronics,Laptops,Dell,752.13,395.74,496,47.38
+515,Sony Smartphones Consumer,Electronics,Smartphones,Sony,1097.8,585.4,446,46.68
+516,Canon Headphones Sure,Electronics,Headphones,Canon,1109.41,768.55,29,30.72
+517,HarperCollins Children Management,Books,Children,HarperCollins,16.99,11.05,421,34.96
+518,Adidas Accessories Speak,Clothing,Accessories,Adidas,278.46,158.59,66,43.05
+519,H&M Dresses Huge,Clothing,Dresses,H&M,217.41,112.07,122,48.45
+520,Nike Winter Sports Last,Sports,Winter Sports,Nike,223.47,100.5,460,55.03
+521,Adidas Fitness Full,Sports,Fitness,Adidas,135.72,85.77,133,36.8
+522,Wayfair Bedding Even,Home & Garden,Bedding,Wayfair,236.94,132.42,240,44.11
+523,Adidas Shoes Something,Clothing,Shoes,Adidas,286.15,168.15,33,41.24
+524,Zara Pants Similar,Clothing,Pants,Zara,255.02,174.27,203,31.66
+525,Adidas Dresses Nor,Clothing,Dresses,Adidas,155.52,94.95,175,38.95
+526,Random House Educational Program,Books,Educational,Random House,23.72,16.38,309,30.94
+527,HP Headphones Figure,Electronics,Headphones,HP,744.37,335.68,443,54.9
+528,Wayfair Tools Career,Home & Garden,Tools,Wayfair,798.19,358.57,167,55.08
+529,Penguin Educational Money,Books,Educational,Penguin,18.19,8.92,437,50.96
+530,Simon & Schuster Fiction Traditional,Books,Fiction,Simon & Schuster,32.62,21.23,101,34.92
+531,Wayfair Kitchen Focus,Home & Garden,Kitchen,Wayfair,163.7,76.43,348,53.31
+532,Gap Dresses Special,Clothing,Dresses,Gap,142.21,81.7,268,42.55
+533,Wilson Fitness Phone,Sports,Fitness,Wilson,282.66,194.37,98,31.24
+534,Adidas Dresses Speech,Clothing,Dresses,Adidas,275.2,151.49,381,44.95
+535,Adidas Outdoor Successful,Sports,Outdoor,Adidas,212.27,143.8,20,32.26
+536,Adidas Pants Figure,Clothing,Pants,Adidas,93.7,57.45,67,38.69
+537,Simon & Schuster Educational Later,Books,Educational,Simon & Schuster,19.43,10.46,140,46.17
+538,Canon Tablets Risk,Electronics,Tablets,Canon,1101.44,609.27,249,44.68
+539,Nikon Smartphones Focus,Electronics,Smartphones,Nikon,562.49,232.63,356,58.64
+540,HP Laptops Guess,Electronics,Laptops,HP,171.52,77.85,247,54.61
+541,Nike Water Sports Production,Sports,Water Sports,Nike,280.38,162.04,6,42.21
+542,IKEA Decor Face,Home & Garden,Decor,IKEA,275.47,114.43,409,58.46
+543,H&M Pants Raise,Clothing,Pants,H&M,184.73,105.02,118,43.15
+544,Pottery Barn Tools Artist,Home & Garden,Tools,Pottery Barn,588.91,375.18,156,36.29
+545,HarperCollins Educational Current,Books,Educational,HarperCollins,32.14,22.12,205,31.18
+546,Nikon Smartphones Wait,Electronics,Smartphones,Nikon,414.93,228.73,220,44.88
+547,LG Tablets Show,Electronics,Tablets,LG,1912.07,1314.88,234,31.23
+548,Home Depot Furniture All,Home & Garden,Furniture,Home Depot,662.59,281.14,271,57.57
+549,Nike Outdoor Service,Sports,Outdoor,Nike,188.97,86.13,438,54.42
+550,Simon & Schuster Fiction Ahead,Books,Fiction,Simon & Schuster,32.22,20.86,217,35.26
+551,Pottery Barn Bedding Clearly,Home & Garden,Bedding,Pottery Barn,144.19,94.68,89,34.34
+552,IKEA Furniture Question,Home & Garden,Furniture,IKEA,176.12,119.4,5,32.21
+553,Zara Pants Black,Clothing,Pants,Zara,107.77,64.61,385,40.05
+554,Dell Headphones To,Electronics,Headphones,Dell,1964.74,1247.95,393,36.48
+555,Nikon Headphones First,Electronics,Headphones,Nikon,506.45,265.16,194,47.64
+556,Adidas Shoes East,Clothing,Shoes,Adidas,95.73,39.63,353,58.6
+557,Gap Pants If,Clothing,Pants,Gap,26.91,16.21,167,39.76
+558,Dell Smartphones Just,Electronics,Smartphones,Dell,799.01,495.58,176,37.98
+559,Sony Cameras General,Electronics,Cameras,Sony,69.44,34.83,65,49.84
+560,HarperCollins Educational Something,Books,Educational,HarperCollins,23.44,10.57,80,54.91
+561,Pottery Barn Bedding Today,Home & Garden,Bedding,Pottery Barn,255.98,118.63,75,53.66
+562,Puma Outdoor Wait,Sports,Outdoor,Puma,41.34,21.68,306,47.56
+563,H&M Shirts Order,Clothing,Shirts,H&M,182.73,125.65,338,31.24
+564,West Elm Tools Finally,Home & Garden,Tools,West Elm,768.27,506.04,465,34.13
+565,Sony Laptops Her,Electronics,Laptops,Sony,668.29,375.48,419,43.81
+566,Wilson Winter Sports Way,Sports,Winter Sports,Wilson,430.66,271.95,460,36.85
+567,LG Laptops Whole,Electronics,Laptops,LG,508.88,288.67,13,43.27
+568,Penguin Educational Defense,Books,Educational,Penguin,19.38,10.85,231,44.01
+569,West Elm Decor Once,Home & Garden,Decor,West Elm,532.31,358.49,310,32.65
+570,Adidas Accessories On,Clothing,Accessories,Adidas,164.7,76.43,85,53.59
+571,Nikon Cameras Consider,Electronics,Cameras,Nikon,1250.8,738.14,3,40.99
+572,Zara Accessories Dinner,Clothing,Accessories,Zara,25.61,11.33,123,55.76
+573,Simon & Schuster Comics Century,Books,Comics,Simon & Schuster,19.11,8.21,242,57.04
+574,Uniqlo Shirts Energy,Clothing,Shirts,Uniqlo,142.44,88.26,175,38.04
+575,Apple Laptops Focus,Electronics,Laptops,Apple,1363.84,925.11,441,32.17
+576,Under Armour Outdoor Strategy,Sports,Outdoor,Under Armour,296.43,140.41,98,52.63
+577,Uniqlo Accessories Go,Clothing,Accessories,Uniqlo,202.53,83.36,192,58.84
+578,Random House Comics Several,Books,Comics,Random House,47.56,30.16,296,36.59
+579,Adidas Accessories Election,Clothing,Accessories,Adidas,253.2,104.65,296,58.67
+580,Samsung Headphones Discover,Electronics,Headphones,Samsung,1656.86,938.6,353,43.35
+581,Samsung Headphones Happy,Electronics,Headphones,Samsung,1350.59,721.38,346,46.59
+582,Home Depot Tools Impact,Home & Garden,Tools,Home Depot,108.85,47.83,253,56.06
+583,Adidas Winter Sports Key,Sports,Winter Sports,Adidas,439.5,215.01,474,51.08
+584,Levi's Accessories Myself,Clothing,Accessories,Levi's,119.73,61.26,67,48.83
+585,Simon & Schuster Comics Table,Books,Comics,Simon & Schuster,43.84,28.22,428,35.63
+586,Simon & Schuster Non-Fiction Color,Books,Non-Fiction,Simon & Schuster,41.43,23.48,176,43.33
+587,Nike Shirts Cause,Clothing,Shirts,Nike,70.21,45.21,410,35.61
+588,Simon & Schuster Fiction Staff,Books,Fiction,Simon & Schuster,31.2,18.64,329,40.26
+589,IKEA Bedding Sort,Home & Garden,Bedding,IKEA,267.63,155.81,495,41.78
+590,Levi's Dresses Need,Clothing,Dresses,Levi's,225.43,114.92,198,49.02
+591,Dell Headphones Place,Electronics,Headphones,Dell,1461.8,826.35,400,43.47
+592,Adidas Shirts Similar,Clothing,Shirts,Adidas,134.99,65.32,27,51.61
+593,Nike Water Sports Southern,Sports,Water Sports,Nike,151.61,76.33,302,49.65
+594,Sony Headphones Just,Electronics,Headphones,Sony,1688.7,737.06,237,56.35
+595,Nike Winter Sports Team,Sports,Winter Sports,Nike,91.89,62.04,257,32.48
+596,Sony Cameras His,Electronics,Cameras,Sony,1921.47,1275.27,434,33.63
+597,Simon & Schuster Comics Speech,Books,Comics,Simon & Schuster,39.22,18.95,58,51.68
+598,Wayfair Decor Member,Home & Garden,Decor,Wayfair,623.59,276.15,217,55.72
+599,HP Laptops Religious,Electronics,Laptops,HP,447.56,300.25,135,32.91
+600,Random House Comics Home,Books,Comics,Random House,18.09,9.34,423,48.37
+601,Levi's Shirts Floor,Clothing,Shirts,Levi's,125.89,78.59,282,37.57
+602,Samsung Cameras Point,Electronics,Cameras,Samsung,1173.65,762.2,436,35.06
+603,Puma Water Sports Week,Sports,Water Sports,Puma,449.34,202.92,206,54.84
+604,H&M Dresses Protect,Clothing,Dresses,H&M,101.77,58.87,34,42.15
+605,HarperCollins Educational Church,Books,Educational,HarperCollins,40.11,23.96,16,40.26
+606,H&M Pants Red,Clothing,Pants,H&M,256.16,120.52,91,52.95
+607,Home Depot Tools Accept,Home & Garden,Tools,Home Depot,329.35,169.98,64,48.39
+608,Penguin Comics Store,Books,Comics,Penguin,45.05,25.76,321,42.82
+609,West Elm Kitchen Do,Home & Garden,Kitchen,West Elm,696.16,399.52,320,42.61
+610,Wilson Team Sports Thought,Sports,Team Sports,Wilson,261.32,178.58,365,31.66
+611,HarperCollins Non-Fiction Scene,Books,Non-Fiction,HarperCollins,37.54,24.83,259,33.86
+612,LG Smartphones Possible,Electronics,Smartphones,LG,1580.23,1018.4,398,35.55
+613,IKEA Decor Officer,Home & Garden,Decor,IKEA,156.45,65.21,193,58.32
+614,Random House Non-Fiction A,Books,Non-Fiction,Random House,47.21,28.62,422,39.38
+615,Puma Outdoor Budget,Sports,Outdoor,Puma,474.23,296.05,404,37.57
+616,Samsung Tablets Defense,Electronics,Tablets,Samsung,1879.33,1296.51,27,31.01
+617,Adidas Team Sports Early,Sports,Team Sports,Adidas,86.36,56.76,456,34.28
+618,Adidas Team Sports Table,Sports,Team Sports,Adidas,440.29,183.99,18,58.21
+619,Nike Winter Sports Prove,Sports,Winter Sports,Nike,217.02,112.44,41,48.19
+620,Penguin Comics Man,Books,Comics,Penguin,24.99,16.0,213,35.97
+621,Nike Pants Purpose,Clothing,Pants,Nike,95.04,39.55,370,58.39
+622,HP Smartphones Industry,Electronics,Smartphones,HP,1778.91,1094.37,47,38.48
+623,HP Tablets Baby,Electronics,Tablets,HP,248.07,125.05,144,49.59
+624,Nike Outdoor Structure,Sports,Outdoor,Nike,127.81,81.91,310,35.91
+625,Penguin Children Population,Books,Children,Penguin,34.77,14.26,201,58.99
+626,Reebok Fitness Bank,Sports,Fitness,Reebok,375.51,185.82,363,50.52
+627,West Elm Furniture We,Home & Garden,Furniture,West Elm,207.34,98.68,165,52.41
+628,West Elm Bedding History,Home & Garden,Bedding,West Elm,583.13,340.36,50,41.63
+629,Pottery Barn Bedding Remember,Home & Garden,Bedding,Pottery Barn,486.18,209.01,129,57.01
+630,Reebok Water Sports Loss,Sports,Water Sports,Reebok,88.28,40.72,337,53.87
+631,Nike Pants Meet,Clothing,Pants,Nike,133.48,89.65,239,32.84
+632,Home Depot Kitchen Across,Home & Garden,Kitchen,Home Depot,662.63,458.39,478,30.82
+633,LG Smartphones Bit,Electronics,Smartphones,LG,851.25,482.24,131,43.35
+634,Random House Educational Who,Books,Educational,Random House,47.57,21.69,487,54.4
+635,Sony Smartphones Foreign,Electronics,Smartphones,Sony,85.95,38.19,286,55.57
+636,Random House Educational Under,Books,Educational,Random House,19.14,10.08,143,47.34
+637,HarperCollins Educational Behind,Books,Educational,HarperCollins,49.61,34.72,252,30.01
+638,Puma Fitness Building,Sports,Fitness,Puma,495.37,253.83,51,48.76
+639,Sony Smartphones Wish,Electronics,Smartphones,Sony,1714.43,988.57,409,42.34
+640,Uniqlo Shoes Bar,Clothing,Shoes,Uniqlo,137.0,77.8,181,43.21
+641,Simon & Schuster Children Heart,Books,Children,Simon & Schuster,33.09,20.24,362,38.83
+642,Levi's Accessories Smile,Clothing,Accessories,Levi's,208.73,90.03,69,56.87
+643,West Elm Bedding Sport,Home & Garden,Bedding,West Elm,172.66,87.47,235,49.34
+644,IKEA Decor Newspaper,Home & Garden,Decor,IKEA,554.98,296.83,95,46.52
+645,Penguin Non-Fiction Box,Books,Non-Fiction,Penguin,32.4,18.7,355,42.28
+646,Penguin Children Provide,Books,Children,Penguin,25.27,12.53,478,50.42
+647,Wayfair Furniture Husband,Home & Garden,Furniture,Wayfair,42.02,19.46,457,53.69
+648,West Elm Bedding Third,Home & Garden,Bedding,West Elm,225.9,95.26,356,57.83
+649,HarperCollins Fiction Class,Books,Fiction,HarperCollins,47.04,30.08,85,36.05
+650,H&M Pants Development,Clothing,Pants,H&M,268.84,144.08,153,46.41
+651,Nike Dresses Authority,Clothing,Dresses,Nike,257.86,168.41,465,34.69
+652,Random House Comics Health,Books,Comics,Random House,17.17,9.82,412,42.81
+653,Nike Shirts Either,Clothing,Shirts,Nike,31.15,19.59,237,37.11
+654,Zara Pants Poor,Clothing,Pants,Zara,158.86,102.11,260,35.72
+655,HarperCollins Children Explain,Books,Children,HarperCollins,38.48,23.95,42,37.76
+656,Uniqlo Shirts College,Clothing,Shirts,Uniqlo,243.04,127.33,237,47.61
+657,Nike Winter Sports Official,Sports,Winter Sports,Nike,114.93,53.27,135,53.65
+658,Home Depot Kitchen Back,Home & Garden,Kitchen,Home Depot,272.02,115.72,57,57.46
+659,Nikon Cameras Budget,Electronics,Cameras,Nikon,827.93,373.21,212,54.92
+660,Simon & Schuster Fiction Help,Books,Fiction,Simon & Schuster,47.02,26.68,189,43.26
+661,West Elm Furniture Offer,Home & Garden,Furniture,West Elm,173.19,116.53,46,32.72
+662,Adidas Dresses Maintain,Clothing,Dresses,Adidas,239.87,135.49,268,43.52
+663,HP Laptops Type,Electronics,Laptops,HP,1985.99,1198.6,215,39.65
+664,Adidas Team Sports Seven,Sports,Team Sports,Adidas,299.21,180.4,229,39.71
+665,Samsung Tablets Wide,Electronics,Tablets,Samsung,334.43,229.57,187,31.35
+666,Nikon Tablets Interview,Electronics,Tablets,Nikon,1015.14,655.56,160,35.42
+667,Random House Fiction Green,Books,Fiction,Random House,49.11,31.29,5,36.29
+668,Simon & Schuster Comics American,Books,Comics,Simon & Schuster,17.63,10.06,3,42.94
+669,Zara Pants Part,Clothing,Pants,Zara,244.84,162.52,305,33.62
+670,Simon & Schuster Fiction Stand,Books,Fiction,Simon & Schuster,32.75,20.87,289,36.27
+671,West Elm Kitchen Attack,Home & Garden,Kitchen,West Elm,226.84,110.95,429,51.09
+672,Canon Smartphones However,Electronics,Smartphones,Canon,1580.46,1072.89,340,32.12
+673,West Elm Furniture Defense,Home & Garden,Furniture,West Elm,674.71,459.76,56,31.86
+674,Levi's Shoes Water,Clothing,Shoes,Levi's,290.17,166.68,141,42.56
+675,Adidas Pants Plan,Clothing,Pants,Adidas,270.51,109.15,309,59.65
+676,Adidas Fitness List,Sports,Fitness,Adidas,447.63,219.61,367,50.94
+677,Home Depot Decor Up,Home & Garden,Decor,Home Depot,650.44,261.98,399,59.72
+678,West Elm Furniture Public,Home & Garden,Furniture,West Elm,229.43,125.38,236,45.35
+679,Nike Shoes His,Clothing,Shoes,Nike,198.77,135.74,148,31.71
+680,Zara Shoes Agency,Clothing,Shoes,Zara,40.75,16.73,438,58.94
+681,Puma Fitness Home,Sports,Fitness,Puma,290.66,174.84,448,39.85
+682,Nike Dresses Very,Clothing,Dresses,Nike,231.22,107.82,2,53.37
+683,Under Armour Water Sports Leg,Sports,Water Sports,Under Armour,490.69,251.94,262,48.66
+684,West Elm Tools Ten,Home & Garden,Tools,West Elm,126.26,55.64,434,55.93
+685,Canon Cameras Situation,Electronics,Cameras,Canon,441.45,231.08,310,47.65
+686,IKEA Furniture Police,Home & Garden,Furniture,IKEA,192.16,93.17,33,51.51
+687,Under Armour Team Sports Some,Sports,Team Sports,Under Armour,172.1,84.18,9,51.09
+688,Wayfair Tools Stock,Home & Garden,Tools,Wayfair,645.04,307.77,459,52.29
+689,Wayfair Tools Song,Home & Garden,Tools,Wayfair,525.25,349.11,362,33.53
+690,Simon & Schuster Comics Certain,Books,Comics,Simon & Schuster,30.64,15.44,127,49.61
+691,Pottery Barn Bedding Camera,Home & Garden,Bedding,Pottery Barn,388.97,231.97,7,40.36
+692,Random House Non-Fiction Try,Books,Non-Fiction,Random House,15.91,8.54,264,46.32
+693,Gap Shoes Suffer,Clothing,Shoes,Gap,143.24,68.16,445,52.42
+694,Home Depot Furniture Hospital,Home & Garden,Furniture,Home Depot,455.77,277.55,214,39.1
+695,West Elm Decor Attack,Home & Garden,Decor,West Elm,124.61,59.37,186,52.36
+696,Levi's Accessories American,Clothing,Accessories,Levi's,216.54,115.91,322,46.47
+697,Zara Shirts Reality,Clothing,Shirts,Zara,259.72,121.87,189,53.08
+698,Home Depot Tools Wrong,Home & Garden,Tools,Home Depot,113.57,63.3,421,44.26
+699,Wilson Fitness Pm,Sports,Fitness,Wilson,205.08,139.51,158,31.97
+700,IKEA Decor Onto,Home & Garden,Decor,IKEA,604.36,355.26,485,41.22
+701,Simon & Schuster Comics Themselves,Books,Comics,Simon & Schuster,43.26,24.98,121,42.26
+702,HP Laptops Best,Electronics,Laptops,HP,654.07,432.93,39,33.81
+703,Home Depot Furniture Assume,Home & Garden,Furniture,Home Depot,360.59,237.45,58,34.15
+704,Random House Educational Allow,Books,Educational,Random House,13.74,6.37,196,53.64
+705,Uniqlo Accessories Quickly,Clothing,Accessories,Uniqlo,139.68,78.18,368,44.03
+706,Pottery Barn Kitchen Particular,Home & Garden,Kitchen,Pottery Barn,777.51,494.6,220,36.39
+707,Sony Smartphones Top,Electronics,Smartphones,Sony,833.74,495.23,41,40.6
+708,Home Depot Furniture Evidence,Home & Garden,Furniture,Home Depot,748.8,307.38,11,58.95
+709,LG Laptops Financial,Electronics,Laptops,LG,1324.2,802.03,196,39.43
+710,Simon & Schuster Non-Fiction Do,Books,Non-Fiction,Simon & Schuster,45.96,23.05,446,49.85
+711,Nike Outdoor Administration,Sports,Outdoor,Nike,334.01,173.17,366,48.15
+712,Sony Cameras Also,Electronics,Cameras,Sony,1535.7,660.16,498,57.01
+713,HarperCollins Non-Fiction Chair,Books,Non-Fiction,HarperCollins,25.16,10.14,46,59.7
+714,Dell Cameras Machine,Electronics,Cameras,Dell,201.1,116.23,434,42.2
+715,Under Armour Winter Sports Method,Sports,Winter Sports,Under Armour,226.56,152.86,89,32.53
+716,Nikon Laptops Down,Electronics,Laptops,Nikon,1513.26,638.52,58,57.81
+717,West Elm Kitchen Certainly,Home & Garden,Kitchen,West Elm,404.94,258.0,461,36.29
+718,Simon & Schuster Fiction Social,Books,Fiction,Simon & Schuster,49.26,31.99,110,35.06
+719,Levi's Shirts Address,Clothing,Shirts,Levi's,236.31,113.34,136,52.04
+720,West Elm Decor Research,Home & Garden,Decor,West Elm,660.97,319.1,188,51.72
+721,Home Depot Kitchen How,Home & Garden,Kitchen,Home Depot,410.31,227.32,429,44.6
+722,LG Tablets Government,Electronics,Tablets,LG,244.34,128.45,376,47.43
+723,West Elm Decor Industry,Home & Garden,Decor,West Elm,277.15,145.73,200,47.42
+724,Under Armour Winter Sports Others,Sports,Winter Sports,Under Armour,100.6,40.7,96,59.54
+725,Dell Laptops Figure,Electronics,Laptops,Dell,1126.21,732.0,72,35.0
+726,Wayfair Bedding Child,Home & Garden,Bedding,Wayfair,115.02,67.9,420,40.97
+727,Nikon Cameras Likely,Electronics,Cameras,Nikon,1361.67,785.15,254,42.34
+728,Random House Comics Question,Books,Comics,Random House,36.27,16.1,134,55.61
+729,H&M Pants Itself,Clothing,Pants,H&M,164.01,88.91,423,45.79
+730,Random House Educational Production,Books,Educational,Random House,48.57,24.15,319,50.28
+731,LG Cameras Current,Electronics,Cameras,LG,1735.75,1010.55,471,41.78
+732,Uniqlo Shirts On,Clothing,Shirts,Uniqlo,112.46,55.79,403,50.39
+733,Home Depot Decor Across,Home & Garden,Decor,Home Depot,370.39,218.01,471,41.14
+734,West Elm Decor They,Home & Garden,Decor,West Elm,222.66,137.44,76,38.27
+735,Nike Winter Sports Property,Sports,Winter Sports,Nike,109.64,45.22,87,58.76
+736,Canon Laptops Never,Electronics,Laptops,Canon,1939.36,1179.87,178,39.16
+737,Wayfair Bedding Consumer,Home & Garden,Bedding,Wayfair,780.45,473.47,475,39.33
+738,Adidas Accessories Idea,Clothing,Accessories,Adidas,101.32,49.75,130,50.9
+739,Adidas Winter Sports Treat,Sports,Winter Sports,Adidas,143.44,92.53,269,35.49
+740,HarperCollins Children Decade,Books,Children,HarperCollins,34.11,15.56,181,54.38
+741,Dell Tablets World,Electronics,Tablets,Dell,735.48,308.16,60,58.1
+742,Zara Shirts Community,Clothing,Shirts,Zara,55.25,29.61,430,46.41
+743,Adidas Water Sports Try,Sports,Water Sports,Adidas,242.95,112.94,236,53.51
+744,Wilson Fitness Indeed,Sports,Fitness,Wilson,222.04,117.7,327,46.99
+745,Levi's Pants Take,Clothing,Pants,Levi's,106.48,52.66,79,50.54
+746,Wilson Team Sports Light,Sports,Team Sports,Wilson,372.65,211.77,100,43.17
+747,Pottery Barn Furniture Key,Home & Garden,Furniture,Pottery Barn,431.04,248.76,426,42.29
+748,Simon & Schuster Non-Fiction Since,Books,Non-Fiction,Simon & Schuster,16.27,9.63,440,40.81
+749,IKEA Decor Draw,Home & Garden,Decor,IKEA,622.6,308.84,72,50.4
+750,West Elm Kitchen Run,Home & Garden,Kitchen,West Elm,692.76,280.31,62,59.54
+751,Adidas Winter Sports Put,Sports,Winter Sports,Adidas,349.34,233.79,321,33.08
+752,Pottery Barn Furniture Black,Home & Garden,Furniture,Pottery Barn,40.46,20.42,375,49.53
+753,Simon & Schuster Children Begin,Books,Children,Simon & Schuster,46.73,29.6,200,36.66
+754,Reebok Outdoor For,Sports,Outdoor,Reebok,272.33,176.67,262,35.13
+755,LG Headphones Employee,Electronics,Headphones,LG,664.62,440.34,285,33.75
+756,Zara Shoes Base,Clothing,Shoes,Zara,85.25,57.88,275,32.11
+757,Canon Tablets Skin,Electronics,Tablets,Canon,169.24,92.54,170,45.32
+758,Pottery Barn Kitchen Ask,Home & Garden,Kitchen,Pottery Barn,526.54,307.98,96,41.51
+759,Simon & Schuster Comics Low,Books,Comics,Simon & Schuster,28.73,19.15,253,33.34
+760,Adidas Shoes Group,Clothing,Shoes,Adidas,148.24,97.75,124,34.06
+761,Random House Fiction Drop,Books,Fiction,Random House,12.06,8.29,357,31.26
+762,Sony Headphones Trade,Electronics,Headphones,Sony,808.15,352.14,237,56.43
+763,Home Depot Kitchen Picture,Home & Garden,Kitchen,Home Depot,222.42,121.56,464,45.35
+764,HarperCollins Children Most,Books,Children,HarperCollins,27.66,15.36,186,44.47
+765,Sony Tablets Treatment,Electronics,Tablets,Sony,1395.09,846.05,405,39.36
+766,IKEA Tools Tonight,Home & Garden,Tools,IKEA,487.48,241.07,181,50.55
+767,Samsung Tablets Up,Electronics,Tablets,Samsung,1881.21,905.93,39,51.84
+768,HarperCollins Children Traditional,Books,Children,HarperCollins,47.9,31.84,328,33.53
+769,West Elm Bedding Maybe,Home & Garden,Bedding,West Elm,550.83,249.31,393,54.74
+770,Samsung Headphones Bar,Electronics,Headphones,Samsung,1786.57,944.87,476,47.11
+771,Puma Team Sports Fact,Sports,Team Sports,Puma,166.48,114.03,321,31.51
+772,HarperCollins Fiction Boy,Books,Fiction,HarperCollins,14.45,9.69,121,32.94
+773,Under Armour Fitness Exactly,Sports,Fitness,Under Armour,124.48,85.23,218,31.53
+774,Penguin Educational To,Books,Educational,Penguin,22.18,12.2,149,45.0
+775,Simon & Schuster Comics Cultural,Books,Comics,Simon & Schuster,24.33,11.14,374,54.21
+776,West Elm Kitchen Lay,Home & Garden,Kitchen,West Elm,468.11,312.68,114,33.2
+777,Dell Smartphones Set,Electronics,Smartphones,Dell,1162.15,722.1,250,37.87
+778,Canon Cameras Want,Electronics,Cameras,Canon,1422.51,923.8,150,35.06
+779,Gap Shirts Film,Clothing,Shirts,Gap,40.41,18.89,64,53.25
+780,Penguin Educational Center,Books,Educational,Penguin,40.96,16.91,114,58.72
+781,Nikon Laptops Person,Electronics,Laptops,Nikon,896.25,492.46,79,45.05
+782,IKEA Decor Do,Home & Garden,Decor,IKEA,552.42,356.67,72,35.43
+783,Gap Dresses Allow,Clothing,Dresses,Gap,55.43,22.98,345,58.54
+784,Levi's Accessories Study,Clothing,Accessories,Levi's,246.68,169.61,156,31.24
+785,Wilson Team Sports However,Sports,Team Sports,Wilson,446.29,233.52,151,47.68
+786,Adidas Dresses Religious,Clothing,Dresses,Adidas,57.04,24.77,120,56.57
+787,HP Tablets Suddenly,Electronics,Tablets,HP,1581.57,850.05,115,46.25
+788,Uniqlo Shoes Even,Clothing,Shoes,Uniqlo,60.09,41.07,480,31.65
+789,Puma Outdoor Side,Sports,Outdoor,Puma,367.32,193.42,316,47.34
+790,Wilson Outdoor I,Sports,Outdoor,Wilson,68.73,28.64,247,58.33
+791,Dell Tablets View,Electronics,Tablets,Dell,1184.84,631.65,122,46.69
+792,Uniqlo Dresses Brother,Clothing,Dresses,Uniqlo,251.6,146.5,127,41.77
+793,Wilson Outdoor Father,Sports,Outdoor,Wilson,107.23,51.19,254,52.26
+794,Wayfair Bedding Yeah,Home & Garden,Bedding,Wayfair,630.32,417.56,95,33.75
+795,West Elm Tools Decide,Home & Garden,Tools,West Elm,665.28,434.54,266,34.68
+796,Wayfair Bedding Move,Home & Garden,Bedding,Wayfair,57.43,39.1,438,31.92
+797,Simon & Schuster Non-Fiction Similar,Books,Non-Fiction,Simon & Schuster,33.88,22.95,200,32.26
+798,Sony Smartphones Defense,Electronics,Smartphones,Sony,642.94,258.82,31,59.74
+799,Nike Water Sports These,Sports,Water Sports,Nike,75.63,32.91,39,56.49
+800,Simon & Schuster Children West,Books,Children,Simon & Schuster,19.7,11.7,208,40.61
+801,Samsung Smartphones Should,Electronics,Smartphones,Samsung,1588.83,887.95,170,44.11
+802,Uniqlo Shirts Move,Clothing,Shirts,Uniqlo,245.71,130.56,447,46.86
+803,Puma Fitness Turn,Sports,Fitness,Puma,314.69,167.73,50,46.7
+804,Samsung Cameras Skill,Electronics,Cameras,Samsung,1664.05,981.1,134,41.04
+805,HP Smartphones At,Electronics,Smartphones,HP,610.54,334.49,89,45.21
+806,Simon & Schuster Comics Itself,Books,Comics,Simon & Schuster,38.28,15.77,11,58.8
+807,Random House Non-Fiction Modern,Books,Non-Fiction,Random House,28.2,14.22,205,49.57
+808,Sony Laptops First,Electronics,Laptops,Sony,1453.03,773.93,241,46.74
+809,Home Depot Furniture Section,Home & Garden,Furniture,Home Depot,278.37,146.79,446,47.27
+810,Gap Accessories Shake,Clothing,Accessories,Gap,132.04,88.23,231,33.18
+811,Wayfair Furniture Center,Home & Garden,Furniture,Wayfair,521.76,235.48,302,54.87
+812,Puma Winter Sports Rock,Sports,Winter Sports,Puma,117.64,51.09,365,56.57
+813,Uniqlo Accessories Now,Clothing,Accessories,Uniqlo,291.32,184.12,326,36.8
+814,HarperCollins Non-Fiction She,Books,Non-Fiction,HarperCollins,42.65,27.96,156,34.44
+815,Random House Educational Physical,Books,Educational,Random House,18.59,12.4,418,33.3
+816,Gap Shoes These,Clothing,Shoes,Gap,164.22,99.76,300,39.25
+817,Uniqlo Pants Form,Clothing,Pants,Uniqlo,59.03,31.03,340,47.43
+818,Nikon Laptops When,Electronics,Laptops,Nikon,76.53,40.07,354,47.64
+819,Penguin Educational Foreign,Books,Educational,Penguin,11.6,7.54,109,35.0
+820,Random House Comics Turn,Books,Comics,Random House,24.22,11.4,353,52.93
+821,IKEA Kitchen Approach,Home & Garden,Kitchen,IKEA,275.4,166.11,402,39.68
+822,Reebok Outdoor Heart,Sports,Outdoor,Reebok,48.64,27.1,280,44.28
+823,Random House Fiction No,Books,Fiction,Random House,48.35,19.72,400,59.21
+824,IKEA Furniture Feel,Home & Garden,Furniture,IKEA,613.02,264.23,113,56.9
+825,Puma Outdoor Realize,Sports,Outdoor,Puma,105.8,58.03,322,45.15
+826,Penguin Children Matter,Books,Children,Penguin,41.43,28.28,266,31.74
+827,Reebok Fitness Event,Sports,Fitness,Reebok,227.73,126.27,66,44.55
+828,Random House Children Employee,Books,Children,Random House,38.06,23.43,340,38.44
+829,Sony Smartphones Open,Electronics,Smartphones,Sony,344.77,201.16,76,41.65
+830,Penguin Fiction Street,Books,Fiction,Penguin,23.16,13.42,141,42.06
+831,Levi's Dresses Past,Clothing,Dresses,Levi's,210.31,131.73,135,37.36
+832,IKEA Bedding Final,Home & Garden,Bedding,IKEA,775.64,462.93,459,40.32
+833,Adidas Pants Middle,Clothing,Pants,Adidas,143.93,81.39,470,43.45
+834,Nikon Cameras Understand,Electronics,Cameras,Nikon,170.84,92.34,360,45.95
+835,H&M Pants Great,Clothing,Pants,H&M,210.35,100.74,88,52.11
+836,Nikon Headphones Cell,Electronics,Headphones,Nikon,1088.08,713.46,475,34.43
+837,Sony Cameras Style,Electronics,Cameras,Sony,478.37,260.51,445,45.54
+838,Wayfair Decor Movie,Home & Garden,Decor,Wayfair,630.09,319.13,223,49.35
+839,Levi's Shirts Perform,Clothing,Shirts,Levi's,57.71,37.76,138,34.57
+840,HarperCollins Non-Fiction Member,Books,Non-Fiction,HarperCollins,32.23,17.58,7,45.45
+841,Under Armour Outdoor Suddenly,Sports,Outdoor,Under Armour,494.87,256.82,157,48.1
+842,Home Depot Furniture Than,Home & Garden,Furniture,Home Depot,692.58,280.59,400,59.49
+843,Pottery Barn Decor Color,Home & Garden,Decor,Pottery Barn,551.44,336.01,499,39.07
+844,Under Armour Winter Sports Reach,Sports,Winter Sports,Under Armour,489.04,205.39,463,58.0
+845,HarperCollins Comics Focus,Books,Comics,HarperCollins,23.86,12.19,75,48.91
+846,West Elm Tools Goal,Home & Garden,Tools,West Elm,427.42,213.63,376,50.02
+847,IKEA Tools Technology,Home & Garden,Tools,IKEA,271.84,124.4,206,54.24
+848,Random House Comics Policy,Books,Comics,Random House,30.52,14.46,22,52.62
+849,H&M Dresses Low,Clothing,Dresses,H&M,198.84,111.29,441,44.03
+850,Gap Dresses While,Clothing,Dresses,Gap,240.36,120.25,420,49.97
+851,Gap Accessories Organization,Clothing,Accessories,Gap,172.96,80.52,494,53.45
+852,Nikon Headphones Only,Electronics,Headphones,Nikon,1460.13,596.8,42,59.13
+853,Puma Water Sports Yes,Sports,Water Sports,Puma,424.8,270.47,43,36.33
+854,Wilson Winter Sports Perform,Sports,Winter Sports,Wilson,217.32,98.03,416,54.89
+855,Adidas Team Sports Of,Sports,Team Sports,Adidas,261.81,173.5,323,33.73
+856,HarperCollins Fiction Could,Books,Fiction,HarperCollins,16.83,6.92,313,58.88
+857,H&M Shoes Culture,Clothing,Shoes,H&M,52.71,27.48,202,47.87
+858,Nike Pants Wish,Clothing,Pants,Nike,106.09,60.24,205,43.22
+859,Home Depot Bedding Subject,Home & Garden,Bedding,Home Depot,764.76,391.12,178,48.86
+860,Pottery Barn Bedding Field,Home & Garden,Bedding,Pottery Barn,651.29,382.59,77,41.26
+861,HarperCollins Children Grow,Books,Children,HarperCollins,14.96,10.12,327,32.35
+862,Adidas Shoes Hair,Clothing,Shoes,Adidas,183.62,93.81,93,48.91
+863,Penguin Fiction Role,Books,Fiction,Penguin,25.53,12.17,202,52.33
+864,Zara Shoes Find,Clothing,Shoes,Zara,290.61,171.69,300,40.92
+865,West Elm Tools Agreement,Home & Garden,Tools,West Elm,440.87,194.11,111,55.97
+866,Samsung Tablets Should,Electronics,Tablets,Samsung,1596.47,829.36,28,48.05
+867,Nike Pants Rather,Clothing,Pants,Nike,276.34,181.21,301,34.42
+868,Canon Laptops Writer,Electronics,Laptops,Canon,1864.92,1267.64,244,32.03
+869,Levi's Accessories Far,Clothing,Accessories,Levi's,180.52,80.39,134,55.47
+870,Random House Non-Fiction Civil,Books,Non-Fiction,Random House,24.29,16.21,236,33.26
+871,Random House Non-Fiction Can,Books,Non-Fiction,Random House,19.91,13.07,366,34.35
+872,HarperCollins Educational Against,Books,Educational,HarperCollins,43.68,25.25,136,42.19
+873,Sony Headphones Act,Electronics,Headphones,Sony,907.65,573.24,125,36.84
+874,Penguin Non-Fiction Budget,Books,Non-Fiction,Penguin,29.91,14.43,144,51.76
+875,LG Tablets First,Electronics,Tablets,LG,826.93,573.36,482,30.66
+876,Random House Comics Provide,Books,Comics,Random House,12.61,8.3,141,34.18
+877,Canon Laptops Perhaps,Electronics,Laptops,Canon,1052.7,685.04,45,34.93
+878,Samsung Headphones Popular,Electronics,Headphones,Samsung,82.94,45.11,387,45.61
+879,HarperCollins Non-Fiction Instead,Books,Non-Fiction,HarperCollins,48.25,32.03,23,33.62
+880,IKEA Decor By,Home & Garden,Decor,IKEA,756.08,504.26,336,33.31
+881,IKEA Tools Break,Home & Garden,Tools,IKEA,380.81,193.83,62,49.1
+882,Puma Team Sports Sort,Sports,Team Sports,Puma,132.04,91.41,271,30.77
+883,Levi's Shirts Themselves,Clothing,Shirts,Levi's,246.6,168.21,495,31.79
+884,Reebok Outdoor Think,Sports,Outdoor,Reebok,43.0,25.18,479,41.44
+885,Random House Children Material,Books,Children,Random House,29.43,16.2,161,44.95
+886,Puma Winter Sports Like,Sports,Winter Sports,Puma,237.19,120.69,370,49.12
+887,Puma Water Sports New,Sports,Water Sports,Puma,416.69,268.73,308,35.51
+888,HP Headphones Fund,Electronics,Headphones,HP,307.11,169.62,345,44.77
+889,Apple Cameras Such,Electronics,Cameras,Apple,931.42,517.61,118,44.43
+890,Puma Winter Sports Far,Sports,Winter Sports,Puma,231.44,121.58,194,47.47
+891,Pottery Barn Decor Hot,Home & Garden,Decor,Pottery Barn,202.61,102.87,51,49.23
+892,Penguin Non-Fiction Detail,Books,Non-Fiction,Penguin,41.46,21.12,228,49.06
+893,Pottery Barn Kitchen Others,Home & Garden,Kitchen,Pottery Barn,337.54,219.62,498,34.94
+894,Nike Accessories Single,Clothing,Accessories,Nike,269.95,148.65,4,44.93
+895,HP Cameras Think,Electronics,Cameras,HP,863.81,569.02,208,34.13
+896,Wayfair Tools Range,Home & Garden,Tools,Wayfair,561.46,347.88,235,38.04
+897,Uniqlo Shirts Almost,Clothing,Shirts,Uniqlo,108.51,68.25,214,37.1
+898,Samsung Cameras Set,Electronics,Cameras,Samsung,799.46,496.88,416,37.85
+899,Home Depot Tools Half,Home & Garden,Tools,Home Depot,348.18,140.77,395,59.57
+900,Apple Smartphones Less,Electronics,Smartphones,Apple,599.01,252.85,142,57.79
+901,H&M Pants Score,Clothing,Pants,H&M,263.23,127.31,179,51.64
+902,Nikon Cameras President,Electronics,Cameras,Nikon,231.08,147.25,338,36.28
+903,Adidas Outdoor Office,Sports,Outdoor,Adidas,101.06,40.66,357,59.77
+904,Puma Water Sports Husband,Sports,Water Sports,Puma,101.24,42.83,42,57.69
+905,Nike Pants If,Clothing,Pants,Nike,161.84,66.32,499,59.02
+906,Adidas Outdoor Worker,Sports,Outdoor,Adidas,312.38,161.7,142,48.24
+907,Apple Cameras Career,Electronics,Cameras,Apple,759.38,471.44,204,37.92
+908,Wilson Winter Sports Six,Sports,Winter Sports,Wilson,296.62,120.28,201,59.45
+909,Wilson Team Sports Lawyer,Sports,Team Sports,Wilson,301.43,202.77,77,32.73
+910,Zara Accessories Phone,Clothing,Accessories,Zara,284.18,179.6,276,36.8
+911,Simon & Schuster Educational Control,Books,Educational,Simon & Schuster,40.43,22.06,270,45.44
+912,Nikon Headphones Time,Electronics,Headphones,Nikon,1842.04,1019.51,68,44.65
+913,H&M Accessories Still,Clothing,Accessories,H&M,179.98,80.09,342,55.5
+914,Random House Comics Dinner,Books,Comics,Random House,38.63,25.75,82,33.34
+915,Puma Outdoor Economic,Sports,Outdoor,Puma,279.81,145.66,338,47.94
+916,Reebok Fitness Our,Sports,Fitness,Reebok,393.66,208.44,228,47.05
+917,Samsung Tablets Ground,Electronics,Tablets,Samsung,1225.55,857.81,110,30.01
+918,Nikon Cameras Suddenly,Electronics,Cameras,Nikon,367.55,151.69,353,58.73
+919,H&M Accessories Effort,Clothing,Accessories,H&M,77.47,47.15,238,39.14
+920,Simon & Schuster Educational With,Books,Educational,Simon & Schuster,40.43,21.66,415,46.43
+921,IKEA Tools Woman,Home & Garden,Tools,IKEA,479.21,260.41,27,45.66
+922,IKEA Furniture Side,Home & Garden,Furniture,IKEA,613.9,365.43,290,40.47
+923,Adidas Shoes Thing,Clothing,Shoes,Adidas,211.23,100.4,411,52.47
+924,Simon & Schuster Comics Across,Books,Comics,Simon & Schuster,13.33,6.08,77,54.39
+925,Pottery Barn Kitchen Alone,Home & Garden,Kitchen,Pottery Barn,546.74,375.81,432,31.26
+926,Sony Tablets Skill,Electronics,Tablets,Sony,1981.72,950.43,142,52.04
+927,Under Armour Fitness Remain,Sports,Fitness,Under Armour,419.36,247.64,160,40.95
+928,Canon Cameras Production,Electronics,Cameras,Canon,213.26,134.77,261,36.8
+929,Adidas Fitness Want,Sports,Fitness,Adidas,335.84,183.45,234,45.38
+930,Penguin Fiction Care,Books,Fiction,Penguin,47.9,19.75,195,58.77
+931,Zara Shirts Real,Clothing,Shirts,Zara,84.72,36.07,486,57.42
+932,Sony Smartphones Half,Electronics,Smartphones,Sony,1947.91,955.95,226,50.92
+933,Dell Laptops Sing,Electronics,Laptops,Dell,417.83,253.53,216,39.32
+934,Uniqlo Shirts Have,Clothing,Shirts,Uniqlo,119.43,65.53,54,45.13
+935,Puma Team Sports Year,Sports,Team Sports,Puma,64.9,43.29,355,33.3
+936,Zara Shoes Deal,Clothing,Shoes,Zara,146.33,96.53,1,34.03
+937,Apple Laptops Physical,Electronics,Laptops,Apple,264.46,134.64,196,49.09
+938,Random House Children Good,Books,Children,Random House,42.08,26.34,32,37.4
+939,Nike Shirts Traditional,Clothing,Shirts,Nike,122.26,62.68,283,48.73
+940,Simon & Schuster Children Reason,Books,Children,Simon & Schuster,24.06,11.25,358,53.24
+941,Adidas Outdoor Cover,Sports,Outdoor,Adidas,61.5,31.85,254,48.21
+942,Nikon Headphones Trial,Electronics,Headphones,Nikon,1858.89,861.5,323,53.66
+943,Adidas Team Sports Purpose,Sports,Team Sports,Adidas,295.7,172.01,406,41.83
+944,Wayfair Decor Hope,Home & Garden,Decor,Wayfair,486.5,266.3,31,45.26
+945,Wilson Winter Sports Instead,Sports,Winter Sports,Wilson,246.29,102.78,34,58.27
+946,Adidas Accessories Room,Clothing,Accessories,Adidas,267.19,112.48,155,57.9
+947,Wilson Fitness Design,Sports,Fitness,Wilson,236.81,99.66,208,57.92
+948,West Elm Bedding Look,Home & Garden,Bedding,West Elm,196.85,127.59,92,35.18
+949,Random House Non-Fiction Thousand,Books,Non-Fiction,Random House,12.29,7.12,332,42.07
+950,H&M Dresses Test,Clothing,Dresses,H&M,143.49,72.63,222,49.38
+951,Samsung Headphones Method,Electronics,Headphones,Samsung,1904.28,880.03,160,53.79
+952,Nikon Laptops Relate,Electronics,Laptops,Nikon,756.38,450.28,53,40.47
+953,Random House Educational Skin,Books,Educational,Random House,47.35,30.16,188,36.3
+954,Wilson Fitness Discover,Sports,Fitness,Wilson,223.67,136.37,183,39.03
+955,LG Cameras Born,Electronics,Cameras,LG,1535.28,1046.31,478,31.85
+956,HarperCollins Fiction Continue,Books,Fiction,HarperCollins,35.89,18.38,498,48.79
+957,Wilson Fitness Technology,Sports,Fitness,Wilson,142.55,82.7,220,41.99
+958,HarperCollins Comics Her,Books,Comics,HarperCollins,22.61,14.02,335,37.99
+959,Adidas Accessories Coach,Clothing,Accessories,Adidas,153.1,95.74,498,37.47
+960,Adidas Team Sports Foreign,Sports,Team Sports,Adidas,208.8,105.44,478,49.5
+961,Adidas Water Sports High,Sports,Water Sports,Adidas,364.3,181.43,303,50.2
+962,Simon & Schuster Children Nice,Books,Children,Simon & Schuster,14.71,6.66,274,54.72
+963,Nike Outdoor Serve,Sports,Outdoor,Nike,124.88,53.24,254,57.37
+964,HarperCollins Non-Fiction Though,Books,Non-Fiction,HarperCollins,38.75,16.03,276,58.63
+965,Wilson Team Sports Might,Sports,Team Sports,Wilson,416.04,264.39,386,36.45
+966,HarperCollins Children Surface,Books,Children,HarperCollins,31.72,18.75,67,40.89
+967,Uniqlo Dresses Almost,Clothing,Dresses,Uniqlo,83.86,37.5,360,55.28
+968,Sony Cameras Can,Electronics,Cameras,Sony,311.3,132.79,220,57.34
+969,Pottery Barn Bedding Do,Home & Garden,Bedding,Pottery Barn,706.32,342.51,141,51.51
+970,Adidas Shoes Beyond,Clothing,Shoes,Adidas,133.83,88.3,61,34.02
+971,Canon Smartphones Sing,Electronics,Smartphones,Canon,956.48,660.86,339,30.91
+972,HarperCollins Educational Teach,Books,Educational,HarperCollins,17.47,10.24,52,41.39
+973,Puma Team Sports But,Sports,Team Sports,Puma,488.84,336.58,332,31.15
+974,Dell Cameras At,Electronics,Cameras,Dell,1988.3,1119.53,378,43.69
+975,LG Cameras Light,Electronics,Cameras,LG,1628.91,1117.14,106,31.42
+976,Wilson Team Sports Have,Sports,Team Sports,Wilson,301.75,149.39,92,50.49
+977,Random House Non-Fiction Campaign,Books,Non-Fiction,Random House,41.32,18.77,392,54.57
+978,H&M Dresses Military,Clothing,Dresses,H&M,207.31,134.68,83,35.03
+979,Simon & Schuster Non-Fiction Economy,Books,Non-Fiction,Simon & Schuster,35.47,17.36,413,51.06
+980,Pottery Barn Bedding Region,Home & Garden,Bedding,Pottery Barn,345.22,179.09,213,48.12
+981,IKEA Decor Design,Home & Garden,Decor,IKEA,631.22,370.41,49,41.32
+982,Adidas Fitness His,Sports,Fitness,Adidas,165.2,96.57,476,41.54
+983,Pottery Barn Kitchen Onto,Home & Garden,Kitchen,Pottery Barn,445.53,189.87,445,57.38
+984,HP Cameras Deal,Electronics,Cameras,HP,986.77,683.13,439,30.77
+985,HP Cameras Its,Electronics,Cameras,HP,815.38,544.91,201,33.17
+986,Reebok Water Sports Change,Sports,Water Sports,Reebok,55.96,38.55,110,31.11
+987,Home Depot Furniture Wait,Home & Garden,Furniture,Home Depot,205.81,105.9,488,48.54
+988,Puma Winter Sports Financial,Sports,Winter Sports,Puma,311.71,211.77,47,32.06
+989,Levi's Pants There,Clothing,Pants,Levi's,171.91,78.67,317,54.24
+990,IKEA Decor Order,Home & Garden,Decor,IKEA,252.52,156.97,88,37.84
+991,Apple Tablets Project,Electronics,Tablets,Apple,995.96,598.28,265,39.93
+992,Canon Headphones Control,Electronics,Headphones,Canon,1775.5,1232.75,219,30.57
+993,Apple Headphones Capital,Electronics,Headphones,Apple,590.13,295.48,24,49.93
+994,Apple Cameras Great,Electronics,Cameras,Apple,1830.08,987.94,193,46.02
+995,Nikon Tablets Before,Electronics,Tablets,Nikon,573.34,310.12,363,45.91
+996,Uniqlo Dresses Group,Clothing,Dresses,Uniqlo,62.59,27.7,247,55.74
+997,Zara Dresses Laugh,Clothing,Dresses,Zara,194.22,78.39,37,59.64
+998,Simon & Schuster Non-Fiction Particularly,Books,Non-Fiction,Simon & Schuster,36.85,25.56,37,30.64
+999,Canon Headphones For,Electronics,Headphones,Canon,1269.3,703.04,334,44.61
+1000,Nike Water Sports Foreign,Sports,Water Sports,Nike,296.67,206.51,258,30.39

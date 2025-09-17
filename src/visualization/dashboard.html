@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetailScope Analytics Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 300;
+        }
+
+        .header p {
+            opacity: 0.9;
+            margin-top: 0.5rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .kpi-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+            border-left: 4px solid #667eea;
+            transition: transform 0.2s ease;
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .kpi-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        .kpi-label {
+            color: #666;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .kpi-change {
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+        }
+
+        .positive {
+            color: #10b981;
+        }
+
+        .negative {
+            color: #ef4444;
+        }
+
+        .chart-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .chart-container {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+        }
+
+        .chart-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #374151;
+        }
+
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        .tabs {
+            display: flex;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .tab {
+            padding: 0.75rem 1.5rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .tab.active {
+            border-bottom-color: #667eea;
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .tab:hover {
+            background-color: #f9fafb;
+        }
+
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            color: #666;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin-right: 1rem;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .alert {
+            background-color: #fef2f2;
+            border: 1px solid #fecaca;
+            color: #dc2626;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th,
+        td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        th {
+            background-color: #f9fafb;
+            font-weight: 600;
+            color: #374151;
+        }
+
+        .risk-high {
+            color: #dc2626;
+            font-weight: 600;
+        }
+
+        .risk-medium {
+            color: #d97706;
+            font-weight: 600;
+        }
+
+        .risk-low {
+            color: #059669;
+            font-weight: 600;
+        }
+
+        .refresh-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background-color 0.2s ease;
+        }
+
+        .refresh-btn:hover {
+            background: #5a67d8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>RetailScope Analytics</h1>
+        <p>Real-time E-commerce Intelligence Dashboard</p>
+    </div>
+
+    <div class="container">
+        <!-- KPI Cards -->
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-value" id="total-revenue">$0</div>
+                <div class="kpi-label">Total Revenue</div>
+                <div class="kpi-change" id="revenue-change">Loading...</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="total-customers">0</div>
+                <div class="kpi-label">Total Customers</div>
+                <div class="kpi-change" id="customer-change">Loading...</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="total-orders">0</div>
+                <div class="kpi-label">Total Orders</div>
+                <div class="kpi-change" id="orders-change">Loading...</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="avg-order-value">$0</div>
+                <div class="kpi-label">Avg Order Value</div>
+                <div class="kpi-change" id="aov-change">Loading...</div>
+            </div>
+        </div>
+
+        <!-- Sales Trends Chart -->
+        <div class="chart-container full-width">
+            <div class="chart-title">
+                Sales Trends
+                <button class="refresh-btn" onclick="loadSalesTrends()">Refresh</button>
+            </div>
+            <div class="tabs">
+                <div class="tab active" onclick="switchTab('daily')">Daily</div>
+                <div class="tab" onclick="switchTab('weekly')">Weekly</div>
+                <div class="tab" onclick="switchTab('monthly')">Monthly</div>
+            </div>
+            <canvas id="salesChart" width="400" height="100"></canvas>
+        </div>
+
+        <!-- Customer Segments and Product Performance -->
+        <div class="chart-grid">
+            <div class="chart-container">
+                <div class="chart-title">Customer Segments</div>
+                <div id="segmentsChart"></div>
+            </div>
+            <div class="chart-container">
+                <div class="chart-title">Top Products</div>
+                <div id="productsChart"></div>
+            </div>
+        </div>
+
+        <!-- Sales Forecast -->
+        <div class="chart-container full-width">
+            <div class="chart-title">Sales Forecast (Next 30 Days)</div>
+            <canvas id="forecastChart" width="400" height="100"></canvas>
+        </div>
+
+        <!-- High-Risk Customers -->
+        <div class="chart-container full-width">
+            <div class="chart-title">High-Risk Churn Customers</div>
+            <div class="table-container">
+                <table id="churnTable">
+                    <thead>
+                        <tr>
+                            <th>Customer</th>
+                            <th>Email</th>
+                            <th>Churn Risk</th>
+                            <th>CLV</th>
+                            <th>Segment</th>
+                            <th>Last Order</th>
+                            <th>Total Spent</th>
+                        </tr>
+                    </thead>
+                    <tbody id="churnTableBody">
+                        <tr>
+                            <td colspan="7" class="loading">Loading...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let salesChart, forecastChart;
+        let currentPeriod = 'daily';
+
+        // API base URL
+        const API_BASE = 'http://localhost:5000/api';
+
+        // Initialize dashboard
+        document.addEventListener('DOMContentLoaded', function () {
+            loadDashboardData();
+        });
+
+        // Load all dashboard data
+        async function loadDashboardData() {
+            try {
+                await Promise.all([
+                    loadKPIs(),
+                    loadSalesTrends(),
+                    loadCustomerSegments(),
+                    loadProductPerformance(),
+                    loadSalesForecasts(),
+                    loadHighRiskCustomers()
+                ]);
+            } catch (error) {
+                console.error('Error loading dashboard data:', error);
+                showAlert('Error loading dashboard data. Please check your API connection.');
+            }
+        }
+
+        // Load KPIs
+        async function loadKPIs() {
+            try {
+                const response = await fetch(`${API_BASE}/dashboard/kpis`);
+                const data = await response.json();
+
+                document.getElementById('total-revenue').textContent = formatCurrency(data.total_revenue);
+                document.getElementById('total-customers').textContent = formatNumber(data.total_customers);
+                document.getElementById('total-orders').textContent = formatNumber(data.total_orders);
+                document.getElementById('avg-order-value').textContent = formatCurrency(data.avg_order_value);
+
+                // Update change indicators
+                const growthClass = data.monthly_growth_rate >= 0 ? 'positive' : 'negative';
+                const growthIcon = data.monthly_growth_rate >= 0 ? '↗' : '↘';
+                document.getElementById('revenue-change').innerHTML =
+                    `<span class="${growthClass}">${growthIcon} ${Math.abs(data.monthly_growth_rate).toFixed(1)}% vs last month</span>`;
+
+            } catch (error) {
+                console.error('Error loading KPIs:', error);
+            }
+        }
+
+        // Load sales trends
+        async function loadSalesTrends() {
+            try {
+                const response = await fetch(`${API_BASE}/sales/trends?period=${currentPeriod}`);
+                const data = await response.json();
+
+                const ctx = document.getElementById('salesChart').getContext('2d');
+
+                if (salesChart) {
+                    salesChart.destroy();
+                }
+
+                salesChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: data.map(d => new Date(d.date).toLocaleDateString()),
+                        datasets: [{
+                            label: 'Revenue',
+                            data: data.map(d => d.revenue),
+                            borderColor: '#667eea',
+                            backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                            tension: 0.4,
+                            fill: true
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                ticks: {
+                                    callback: function (value) {
+                                        return '$' + value.toLocaleString();
+                                    }
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            }
+                        }
+                    }
+                });
+
+            } catch (error) {
+                console.error('Error loading sales trends:', error);
+            }
+        }
+
+        // Load customer segments
+        async function loadCustomerSegments() {
+            try {
+                const response = await fetch(`${API_BASE}/customers/segments`);
+                const data = await response.json();
+
+                const plotData = [{
+                    values: data.map(d => d.customer_count),
+                    labels: data.map(d => d.segment_name),
+                    type: 'pie',
+                    hole: 0.4,
+                    marker: {
+                        colors: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe']
+                    }
+                }];
+
+                const layout = {
+                    showlegend: true,
+                    margin: { t: 0, b: 0, l: 0, r: 0 },
+                    height: 300
+                };
+
+                Plotly.newPlot('segmentsChart', plotData, layout, { responsive: true });
+
+            } catch (error) {
+                console.error('Error loading customer segments:', error);
+            }
+        }
+
+        // Load product performance
+        async function loadProductPerformance() {
+            try {
+                const response = await fetch(`${API_BASE}/products/performance?limit=5`);
+                const data = await response.json();
+
+                const plotData = [{
+                    x: data.map(d => d.total_revenue),
+                    y: data.map(d => d.product_name),
+                    type: 'bar',
+                    orientation: 'h',
+                    marker: {
+                        color: '#667eea'
+                    }
+                }];
+
+                const layout = {
+                    margin: { t: 20, b: 40, l: 150, r: 20 },
+                    height: 300,
+                    xaxis: {
+                        tickformat: '$,.0f'
+                    }
+                };
+
+                Plotly.newPlot('productsChart', plotData, layout, { responsive: true });
+
+            } catch (error) {
+                console.error('Error loading product performance:', error);
+            }
+        }
+
+        // Load sales forecasts
+        async function loadSalesForecasts() {
+            try {
+                const response = await fetch(`${API_BASE}/forecasts/sales?days=30`);
+                const data = await response.json();
+
+                const ctx = document.getElementById('forecastChart').getContext('2d');
+
+                if (forecastChart) {
+                    forecastChart.destroy();
+                }
+
+                forecastChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: data.map(d => new Date(d.date).toLocaleDateString()),
+                        datasets: [{
+                            label: 'Predicted Revenue',
+                            data: data.map(d => d.predicted_revenue),
+                            borderColor: '#10b981',
+                            backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                            tension: 0.4,
+                            fill: true
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                ticks: {
+                                    callback: function (value) {
+                                        return '$' + value.toLocaleString();
+                                    }
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            }
+                        }
+                    }
+                });
+
+            } catch (error) {
+                console.error('Error loading sales forecasts:', error);
+            }
+        }
+
+        // Load high-risk customers
+        async function loadHighRiskCustomers() {
+            try {
+                const response = await fetch(`${API_BASE}/churn/high-risk?limit=10`);
+                const data = await response.json();
+
+                const tbody = document.getElementById('churnTableBody');
+                tbody.innerHTML = '';
+
+                data.forEach(customer => {
+                    const row = document.createElement('tr');
+                    const riskClass = customer.churn_probability > 0.8 ? 'risk-high' :
+                        customer.churn_probability > 0.6 ? 'risk-medium' : 'risk-low';
+
+                    row.innerHTML = `
+                        <td>${customer.name}</td>
+                        <td>${customer.email}</td>
+                        <td class="${riskClass}">${(customer.churn_probability * 100).toFixed(1)}%</td>
+                        <td>${formatCurrency(customer.clv_prediction)}</td>
+                        <td>${customer.segment}</td>
+                        <td>${customer.last_order_date || 'N/A'}</td>
+                        <td>${formatCurrency(customer.total_spent)}</td>
+                    `;
+                    tbody.appendChild(row);
+                });
+
+            } catch (error) {
+                console.error('Error loading high-risk customers:', error);
+            }
+        }
+
+        // Switch tabs for sales trends
+        function switchTab(period) {
+            currentPeriod = period;
+
+            // Update active tab
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Reload sales trends
+            loadSalesTrends();
+        }
+
+        // Utility functions
+        function formatCurrency(value) {
+            return new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD',
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            }).format(value);
+        }
+
+        function formatNumber(value) {
+            return new Intl.NumberFormat('en-US').format(value);
+        }
+
+        function showAlert(message) {
+            const alertDiv = document.createElement('div');
+            alertDiv.className = 'alert';
+            alertDiv.textContent = message;
+            document.querySelector('.container').insertBefore(alertDiv, document.querySelector('.kpi-grid'));
+
+            setTimeout(() => {
+                alertDiv.remove();
+            }, 5000);
+        }
+
+        // Auto-refresh every 5 minutes
+        setInterval(loadDashboardData, 300000);
+    </script>
+</body>
+
+</html>
