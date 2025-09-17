@@ -146,7 +146,9 @@ class RetailScopeOrchestrator:
             return True
             
         except Exception as e:
-            print("\n[ERROR] Pipeline failed: {e}")
+            print(f"\n[ERROR] Pipeline failed: {str(e)}")
+            import traceback
+            traceback.print_exc()
             return False
 
 def main():

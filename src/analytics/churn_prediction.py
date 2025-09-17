@@ -661,7 +661,7 @@ class ChurnPrediction:
         self.save_predictions_to_database(df)
         
         # Create visualizations
-        self.create_visualizations(df, model_results)
+        self.create_churn_visualizations(df, model_results)
         
         # Generate insights
         insights = self.generate_churn_insights(df)
